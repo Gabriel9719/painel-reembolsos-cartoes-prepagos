@@ -1,0 +1,773 @@
+compra_id;data;pa;natureza;categoria;valor;comprovante
+1;2026-01-24;01;Despesa administrativa;Material de limpeza;139.88;Sim
+2;2026-01-03;01;Manutenção;Material elétrico;61.46;Sim
+3;2026-01-13;01;Despesa administrativa;Cópias e impressões;145.33;Sim
+4;2026-01-19;01;Despesa administrativa;Material de escritório;46.73;Sim
+5;2026-01-21;01;Manutenção;Pequenos reparos;30.88;Sim
+6;2026-01-20;01;Manutenção;Chaveiro;29.0;Sim
+7;2026-01-20;01;Despesa administrativa;Copa e cozinha;96.16;Sim
+8;2026-01-20;01;Despesa administrativa;Copa e cozinha;194.5;Sim
+9;2026-01-09;01;Manutenção;Jardinagem;63.35;Sim
+10;2026-01-19;02;Manutenção;Material elétrico;27.9;Não
+11;2026-01-13;02;Despesa administrativa;Material de limpeza;142.04;Sim
+12;2026-01-14;02;Despesa administrativa;Correios;73.79;Sim
+13;2026-01-09;03;Despesa administrativa;Cópias e impressões;172.74;Sim
+14;2026-01-01;03;Despesa administrativa;Cópias e impressões;41.82;Sim
+15;2026-01-04;03;Manutenção;Chaveiro;71.81;Sim
+16;2026-01-18;03;Despesa administrativa;Material de escritório;72.65;Sim
+17;2026-01-05;03;Despesa administrativa;Material de escritório;168.0;Sim
+18;2026-01-12;03;Despesa administrativa;Material de escritório;185.38;Sim
+19;2026-01-25;03;Manutenção;Material elétrico;35.6;Sim
+20;2026-01-20;03;Despesa administrativa;Material de limpeza;28.43;Sim
+21;2026-01-15;04;Despesa administrativa;Cópias e impressões;106.02;Sim
+22;2026-01-17;04;Despesa administrativa;Correios;45.83;Sim
+23;2026-01-19;04;Despesa administrativa;Copa e cozinha;171.15;Sim
+24;2026-01-17;04;Despesa administrativa;Correios;89.7;Sim
+25;2026-01-27;04;Manutenção;Pequenos reparos;35.92;Sim
+26;2026-01-17;04;Manutenção;Chaveiro;27.82;Sim
+27;2026-01-07;04;Despesa administrativa;Correios;140.64;Sim
+28;2026-01-03;04;Despesa administrativa;Copa e cozinha;122.63;Sim
+29;2026-01-06;04;Despesa administrativa;Cópias e impressões;132.13;Sim
+30;2026-01-23;05;Despesa administrativa;Correios;98.43;Sim
+31;2026-01-10;05;Manutenção;Jardinagem;199.96;Sim
+32;2026-01-02;05;Despesa administrativa;Material de escritório;65.39;Sim
+33;2026-01-06;05;Despesa administrativa;Correios;32.88;Sim
+34;2026-01-21;05;Despesa administrativa;Correios;38.92;Sim
+35;2026-01-22;05;Despesa administrativa;Copa e cozinha;120.52;Sim
+36;2026-01-27;05;Despesa administrativa;Copa e cozinha;76.71;Sim
+37;2026-01-27;05;Despesa administrativa;Correios;186.46;Sim
+38;2026-01-10;05;Manutenção;Material elétrico;137.62;Sim
+39;2026-01-14;06;Despesa administrativa;Copa e cozinha;92.53;Sim
+40;2026-01-18;06;Despesa administrativa;Material de limpeza;141.9;Sim
+41;2026-01-05;06;Manutenção;Material elétrico;47.23;Sim
+42;2026-01-24;06;Despesa administrativa;Correios;169.4;Sim
+43;2026-01-18;06;Manutenção;Jardinagem;43.43;Sim
+44;2026-01-07;06;Despesa administrativa;Material de escritório;170.75;Sim
+45;2026-01-24;06;Despesa administrativa;Correios;46.14;Sim
+46;2026-01-01;06;Despesa administrativa;Cópias e impressões;44.98;Sim
+47;2026-01-18;07;Despesa administrativa;Correios;135.74;Sim
+48;2026-01-20;07;Despesa administrativa;Material de escritório;62.87;Sim
+49;2026-01-14;07;Manutenção;Chaveiro;62.1;Sim
+50;2026-01-04;07;Despesa administrativa;Correios;34.42;Sim
+51;2026-01-16;07;Despesa administrativa;Copa e cozinha;134.69;Sim
+52;2026-01-12;07;Despesa administrativa;Cópias e impressões;68.18;Sim
+53;2026-01-12;07;Despesa administrativa;Cópias e impressões;148.94;Sim
+54;2026-01-02;07;Despesa administrativa;Correios;113.4;Sim
+55;2026-01-11;07;Manutenção;Jardinagem;30.11;Sim
+56;2026-01-01;08;Despesa administrativa;Correios;136.27;Sim
+57;2026-01-11;08;Despesa administrativa;Copa e cozinha;157.67;Sim
+58;2026-01-15;08;Despesa administrativa;Correios;121.36;Sim
+59;2026-01-03;08;Despesa administrativa;Material de escritório;111.19;Sim
+60;2026-01-20;08;Despesa administrativa;Correios;77.63;Sim
+61;2026-01-03;08;Despesa administrativa;Copa e cozinha;147.44;Sim
+62;2026-01-07;09;Despesa administrativa;Material de escritório;197.38;Sim
+63;2026-01-01;09;Despesa administrativa;Copa e cozinha;180.77;Sim
+64;2026-01-08;09;Despesa administrativa;Copa e cozinha;68.64;Sim
+65;2026-01-12;09;Manutenção;Chaveiro;58.64;Sim
+66;2026-01-04;09;Manutenção;Pequenos reparos;25.01;Sim
+67;2026-01-08;09;Despesa administrativa;Material de limpeza;180.79;Sim
+68;2026-01-05;09;Despesa administrativa;Material de limpeza;61.04;Sim
+69;2026-01-12;10;Manutenção;Material elétrico;70.34;Sim
+70;2026-01-02;10;Despesa administrativa;Cópias e impressões;186.24;Sim
+71;2026-01-03;10;Despesa administrativa;Cópias e impressões;165.83;Sim
+72;2026-01-15;10;Despesa administrativa;Cópias e impressões;178.28;Sim
+73;2026-01-08;10;Manutenção;Chaveiro;59.27;Sim
+74;2026-01-22;10;Manutenção;Jardinagem;41.49;Sim
+75;2026-01-27;10;Despesa administrativa;Correios;166.8;Sim
+76;2026-01-19;11;Despesa administrativa;Cópias e impressões;33.09;Sim
+77;2026-01-25;11;Despesa administrativa;Material de limpeza;43.74;Sim
+78;2026-01-02;11;Despesa administrativa;Correios;159.02;Sim
+79;2026-01-20;11;Despesa administrativa;Material de escritório;146.39;Sim
+80;2026-01-10;11;Manutenção;Chaveiro;70.63;Sim
+81;2026-01-13;11;Despesa administrativa;Copa e cozinha;36.07;Sim
+82;2026-01-28;11;Manutenção;Pequenos reparos;70.07;Sim
+83;2026-01-15;11;Manutenção;Material elétrico;34.66;Sim
+84;2026-01-21;11;Despesa administrativa;Material de escritório;135.76;Sim
+85;2026-01-06;12;Despesa administrativa;Material de limpeza;146.13;Sim
+86;2026-01-06;12;Despesa administrativa;Material de escritório;55.69;Não
+87;2026-01-20;12;Despesa administrativa;Copa e cozinha;84.26;Sim
+88;2026-01-08;12;Despesa administrativa;Material de limpeza;50.69;Sim
+89;2026-01-27;12;Manutenção;Material elétrico;55.21;Sim
+90;2026-02-04;01;Manutenção;Pequenos reparos;40.89;Sim
+91;2026-02-11;01;Despesa administrativa;Correios;147.14;Sim
+92;2026-02-26;01;Manutenção;Chaveiro;61.38;Sim
+93;2026-02-23;01;Despesa administrativa;Cópias e impressões;38.04;Sim
+94;2026-02-07;01;Manutenção;Pequenos reparos;40.77;Não
+95;2026-02-18;01;Despesa administrativa;Cópias e impressões;100.7;Sim
+96;2026-02-25;01;Despesa administrativa;Copa e cozinha;100.72;Sim
+97;2026-02-04;01;Despesa administrativa;Correios;26.9;Sim
+98;2026-02-27;01;Despesa administrativa;Copa e cozinha;131.09;Sim
+99;2026-02-06;02;Despesa administrativa;Correios;139.71;Sim
+100;2026-02-11;02;Despesa administrativa;Material de limpeza;167.7;Sim
+101;2026-02-15;02;Despesa administrativa;Material de limpeza;29.5;Sim
+102;2026-02-20;02;Manutenção;Material elétrico;39.18;Sim
+103;2026-02-27;02;Manutenção;Chaveiro;45.69;Sim
+104;2026-02-27;03;Despesa administrativa;Correios;129.66;Sim
+105;2026-02-08;03;Despesa administrativa;Copa e cozinha;168.24;Sim
+106;2026-02-12;03;Despesa administrativa;Material de limpeza;61.13;Não
+107;2026-02-17;03;Despesa administrativa;Copa e cozinha;60.31;Sim
+108;2026-02-22;03;Despesa administrativa;Cópias e impressões;162.86;Sim
+109;2026-02-23;03;Despesa administrativa;Cópias e impressões;183.46;Sim
+110;2026-02-04;03;Despesa administrativa;Copa e cozinha;89.28;Sim
+111;2026-02-09;03;Despesa administrativa;Cópias e impressões;65.32;Sim
+112;2026-02-02;03;Manutenção;Chaveiro;67.71;Sim
+113;2026-02-20;04;Manutenção;Chaveiro;50.29;Sim
+114;2026-02-21;04;Despesa administrativa;Correios;47.52;Sim
+115;2026-02-03;04;Despesa administrativa;Copa e cozinha;86.29;Sim
+116;2026-02-09;04;Despesa administrativa;Material de limpeza;135.38;Sim
+117;2026-02-26;04;Manutenção;Material elétrico;22.68;Sim
+118;2026-02-02;04;Despesa administrativa;Material de limpeza;198.28;Sim
+119;2026-02-01;05;Despesa administrativa;Material de limpeza;72.55;Sim
+120;2026-02-03;05;Despesa administrativa;Correios;183.7;Sim
+121;2026-02-19;05;Manutenção;Chaveiro;245.56;Sim
+122;2026-02-27;05;Despesa administrativa;Correios;61.11;Sim
+123;2026-02-07;05;Despesa administrativa;Correios;85.81;Sim
+124;2026-02-12;05;Manutenção;Pequenos reparos;167.97;Não
+125;2026-02-24;06;Despesa administrativa;Cópias e impressões;106.0;Sim
+126;2026-02-10;06;Manutenção;Chaveiro;46.04;Sim
+127;2026-02-13;06;Manutenção;Material elétrico;52.0;Sim
+128;2026-02-19;06;Despesa administrativa;Cópias e impressões;56.71;Sim
+129;2026-02-07;06;Despesa administrativa;Copa e cozinha;88.81;Sim
+130;2026-02-17;06;Despesa administrativa;Cópias e impressões;152.77;Sim
+131;2026-02-23;06;Manutenção;Jardinagem;34.03;Sim
+132;2026-02-18;07;Manutenção;Jardinagem;43.65;Sim
+133;2026-02-21;07;Manutenção;Chaveiro;42.01;Sim
+134;2026-02-13;07;Despesa administrativa;Correios;126.28;Sim
+135;2026-02-03;07;Despesa administrativa;Material de escritório;68.18;Não
+136;2026-02-20;07;Despesa administrativa;Correios;118.17;Sim
+137;2026-02-03;07;Despesa administrativa;Correios;125.22;Sim
+138;2026-02-01;07;Despesa administrativa;Correios;182.16;Sim
+139;2026-02-16;07;Despesa administrativa;Cópias e impressões;97.47;Sim
+140;2026-02-26;07;Manutenção;Jardinagem;53.05;Sim
+141;2026-02-16;08;Despesa administrativa;Correios;137.97;Sim
+142;2026-02-14;08;Despesa administrativa;Correios;58.17;Sim
+143;2026-02-21;08;Despesa administrativa;Cópias e impressões;130.95;Sim
+144;2026-02-28;08;Despesa administrativa;Material de escritório;106.72;Sim
+145;2026-02-21;08;Despesa administrativa;Copa e cozinha;189.8;Sim
+146;2026-02-16;08;Despesa administrativa;Cópias e impressões;149.1;Sim
+147;2026-02-28;08;Despesa administrativa;Correios;163.16;Sim
+148;2026-02-15;08;Despesa administrativa;Correios;96.04;Sim
+149;2026-02-10;09;Manutenção;Pequenos reparos;49.45;Sim
+150;2026-02-27;09;Despesa administrativa;Material de escritório;177.03;Sim
+151;2026-02-18;09;Manutenção;Material elétrico;70.81;Sim
+152;2026-02-21;09;Manutenção;Jardinagem;63.62;Sim
+153;2026-02-09;09;Despesa administrativa;Copa e cozinha;128.73;Sim
+154;2026-02-25;09;Manutenção;Material elétrico;49.74;Sim
+155;2026-02-27;09;Despesa administrativa;Copa e cozinha;102.15;Sim
+156;2026-02-19;09;Despesa administrativa;Cópias e impressões;183.71;Sim
+157;2026-02-26;10;Despesa administrativa;Material de escritório;37.51;Sim
+158;2026-02-26;10;Despesa administrativa;Material de limpeza;125.62;Sim
+159;2026-02-15;10;Despesa administrativa;Material de limpeza;106.34;Sim
+160;2026-02-13;10;Despesa administrativa;Cópias e impressões;100.49;Sim
+161;2026-02-18;10;Despesa administrativa;Correios;178.49;Sim
+162;2026-02-22;10;Despesa administrativa;Correios;49.24;Sim
+163;2026-02-20;10;Despesa administrativa;Cópias e impressões;60.97;Sim
+164;2026-02-22;11;Despesa administrativa;Cópias e impressões;65.31;Sim
+165;2026-02-04;11;Despesa administrativa;Copa e cozinha;79.51;Sim
+166;2026-02-03;11;Manutenção;Material elétrico;51.84;Sim
+167;2026-02-22;11;Manutenção;Material elétrico;21.14;Sim
+168;2026-02-08;11;Despesa administrativa;Correios;83.95;Sim
+169;2026-02-21;11;Despesa administrativa;Material de limpeza;72.42;Sim
+170;2026-02-13;12;Despesa administrativa;Copa e cozinha;39.07;Sim
+171;2026-02-25;12;Manutenção;Material elétrico;27.51;Sim
+172;2026-02-18;12;Despesa administrativa;Material de escritório;105.73;Sim
+173;2026-02-17;12;Despesa administrativa;Material de limpeza;56.54;Sim
+174;2026-02-26;12;Manutenção;Pequenos reparos;33.02;Sim
+175;2026-02-01;12;Despesa administrativa;Correios;76.06;Sim
+176;2026-03-17;01;Despesa administrativa;Correios;108.14;Sim
+177;2026-03-03;01;Despesa administrativa;Correios;153.37;Sim
+178;2026-03-22;01;Manutenção;Chaveiro;33.77;Sim
+179;2026-03-19;01;Despesa administrativa;Correios;33.68;Sim
+180;2026-03-20;01;Manutenção;Pequenos reparos;32.81;Sim
+181;2026-03-15;01;Despesa administrativa;Material de limpeza;93.27;Sim
+182;2026-03-20;01;Despesa administrativa;Correios;78.97;Não
+183;2026-03-08;01;Despesa administrativa;Copa e cozinha;182.49;Sim
+184;2026-03-14;02;Despesa administrativa;Copa e cozinha;156.49;Sim
+185;2026-03-01;02;Manutenção;Material elétrico;42.83;Sim
+186;2026-03-13;02;Despesa administrativa;Correios;146.39;Sim
+187;2026-03-12;02;Despesa administrativa;Cópias e impressões;134.86;Sim
+188;2026-03-26;02;Despesa administrativa;Correios;91.52;Sim
+189;2026-03-14;02;Manutenção;Jardinagem;61.29;Sim
+190;2026-03-05;03;Despesa administrativa;Copa e cozinha;64.38;Sim
+191;2026-03-26;03;Despesa administrativa;Correios;31.0;Sim
+192;2026-03-24;03;Despesa administrativa;Cópias e impressões;56.82;Sim
+193;2026-03-03;03;Despesa administrativa;Cópias e impressões;38.21;Não
+194;2026-03-03;03;Manutenção;Material elétrico;31.98;Sim
+195;2026-03-20;04;Despesa administrativa;Copa e cozinha;158.77;Sim
+196;2026-03-11;04;Despesa administrativa;Material de limpeza;71.79;Sim
+197;2026-03-24;04;Manutenção;Material elétrico;69.79;Sim
+198;2026-03-10;04;Manutenção;Chaveiro;22.13;Sim
+199;2026-03-01;05;Manutenção;Chaveiro;241.88;Sim
+200;2026-03-18;05;Manutenção;Chaveiro;71.89;Sim
+201;2026-03-07;05;Despesa administrativa;Material de escritório;144.47;Sim
+202;2026-03-14;05;Despesa administrativa;Material de limpeza;130.76;Sim
+203;2026-03-23;05;Despesa administrativa;Material de escritório;77.03;Sim
+204;2026-03-21;06;Manutenção;Jardinagem;41.18;Sim
+205;2026-03-26;06;Despesa administrativa;Copa e cozinha;159.33;Sim
+206;2026-03-16;06;Manutenção;Chaveiro;35.35;Não
+207;2026-03-18;07;Despesa administrativa;Cópias e impressões;82.57;Sim
+208;2026-03-15;07;Manutenção;Material elétrico;29.89;Sim
+209;2026-03-25;07;Despesa administrativa;Copa e cozinha;164.47;Sim
+210;2026-03-11;07;Despesa administrativa;Correios;55.44;Sim
+211;2026-03-14;08;Despesa administrativa;Cópias e impressões;98.86;Sim
+212;2026-03-21;08;Despesa administrativa;Material de escritório;139.13;Sim
+213;2026-03-02;08;Manutenção;Material elétrico;29.94;Sim
+214;2026-03-19;08;Despesa administrativa;Copa e cozinha;187.49;Sim
+215;2026-03-13;08;Despesa administrativa;Material de limpeza;76.23;Sim
+216;2026-03-03;08;Despesa administrativa;Correios;43.03;Sim
+217;2026-03-17;08;Manutenção;Chaveiro;62.13;Sim
+218;2026-03-26;08;Manutenção;Chaveiro;31.75;Sim
+219;2026-03-02;08;Despesa administrativa;Material de escritório;130.9;Sim
+220;2026-03-23;09;Manutenção;Chaveiro;21.69;Sim
+221;2026-03-08;09;Despesa administrativa;Material de limpeza;133.78;Sim
+222;2026-03-24;09;Despesa administrativa;Copa e cozinha;117.42;Sim
+223;2026-03-01;09;Manutenção;Material elétrico;35.32;Sim
+224;2026-03-13;09;Despesa administrativa;Correios;96.82;Sim
+225;2026-03-25;09;Manutenção;Chaveiro;59.87;Sim
+226;2026-03-10;09;Manutenção;Chaveiro;22.22;Sim
+227;2026-03-02;10;Manutenção;Chaveiro;70.12;Sim
+228;2026-03-05;10;Despesa administrativa;Cópias e impressões;126.78;Sim
+229;2026-03-01;10;Manutenção;Jardinagem;59.02;Sim
+230;2026-03-25;10;Despesa administrativa;Copa e cozinha;195.0;Sim
+231;2026-03-17;10;Despesa administrativa;Material de escritório;171.25;Sim
+232;2026-03-19;10;Manutenção;Jardinagem;38.76;Sim
+233;2026-03-18;11;Despesa administrativa;Copa e cozinha;126.29;Sim
+234;2026-03-21;11;Manutenção;Chaveiro;49.08;Sim
+235;2026-03-10;11;Despesa administrativa;Material de escritório;168.71;Não
+236;2026-03-08;11;Manutenção;Material elétrico;23.21;Sim
+237;2026-03-16;11;Despesa administrativa;Cópias e impressões;79.88;Sim
+238;2026-03-18;12;Despesa administrativa;Material de escritório;186.44;Sim
+239;2026-03-01;12;Despesa administrativa;Correios;186.64;Sim
+240;2026-03-24;12;Despesa administrativa;Material de limpeza;33.45;Sim
+241;2026-03-21;12;Manutenção;Chaveiro;25.76;Sim
+242;2026-03-22;12;Despesa administrativa;Material de limpeza;25.06;Sim
+243;2026-03-06;12;Despesa administrativa;Material de limpeza;77.15;Sim
+244;2026-03-17;12;Manutenção;Chaveiro;59.68;Sim
+245;2026-03-09;12;Despesa administrativa;Cópias e impressões;134.55;Sim
+246;2026-03-21;12;Despesa administrativa;Material de escritório;195.7;Sim
+247;2026-04-15;01;Despesa administrativa;Correios;96.49;Sim
+248;2026-04-01;01;Manutenção;Material elétrico;64.48;Sim
+249;2026-04-14;01;Manutenção;Jardinagem;26.57;Sim
+250;2026-04-27;01;Manutenção;Jardinagem;34.61;Sim
+251;2026-04-26;01;Despesa administrativa;Material de limpeza;117.23;Sim
+252;2026-04-12;01;Despesa administrativa;Correios;135.33;Sim
+253;2026-04-02;02;Despesa administrativa;Copa e cozinha;163.53;Sim
+254;2026-04-07;02;Despesa administrativa;Correios;110.47;Sim
+255;2026-04-11;02;Manutenção;Jardinagem;39.3;Sim
+256;2026-04-21;02;Manutenção;Chaveiro;62.85;Sim
+257;2026-04-02;02;Despesa administrativa;Cópias e impressões;31.93;Sim
+258;2026-04-06;02;Despesa administrativa;Material de escritório;180.88;Sim
+259;2026-04-16;03;Despesa administrativa;Material de limpeza;33.28;Sim
+260;2026-04-13;03;Despesa administrativa;Material de limpeza;76.47;Sim
+261;2026-04-03;03;Despesa administrativa;Correios;35.23;Não
+262;2026-04-14;03;Despesa administrativa;Material de limpeza;118.39;Sim
+263;2026-04-24;03;Despesa administrativa;Material de escritório;198.3;Sim
+264;2026-04-13;03;Despesa administrativa;Cópias e impressões;178.81;Sim
+265;2026-04-19;03;Despesa administrativa;Material de limpeza;70.76;Sim
+266;2026-04-03;03;Manutenção;Material elétrico;26.32;Sim
+267;2026-04-23;04;Despesa administrativa;Copa e cozinha;165.73;Sim
+268;2026-04-05;04;Despesa administrativa;Material de limpeza;35.75;Sim
+269;2026-04-08;04;Manutenção;Jardinagem;33.62;Sim
+270;2026-04-10;04;Manutenção;Chaveiro;58.79;Sim
+271;2026-04-22;04;Manutenção;Material elétrico;72.08;Sim
+272;2026-04-14;04;Manutenção;Jardinagem;23.9;Sim
+273;2026-04-24;04;Despesa administrativa;Copa e cozinha;49.96;Sim
+274;2026-04-13;04;Manutenção;Pequenos reparos;43.86;Sim
+275;2026-04-06;05;Despesa administrativa;Copa e cozinha;164.81;Sim
+276;2026-04-25;05;Manutenção;Material elétrico;145.84;Sim
+277;2026-04-06;05;Despesa administrativa;Material de escritório;110.72;Sim
+278;2026-04-18;05;Despesa administrativa;Correios;86.55;Sim
+279;2026-04-23;05;Manutenção;Pequenos reparos;259.18;Sim
+280;2026-04-25;06;Manutenção;Material elétrico;50.15;Sim
+281;2026-04-25;06;Manutenção;Jardinagem;26.39;Sim
+282;2026-04-14;06;Despesa administrativa;Material de escritório;92.43;Sim
+283;2026-04-24;06;Despesa administrativa;Material de escritório;100.23;Sim
+284;2026-04-09;06;Despesa administrativa;Material de escritório;106.29;Sim
+285;2026-04-19;06;Despesa administrativa;Cópias e impressões;63.11;Sim
+286;2026-04-21;06;Despesa administrativa;Cópias e impressões;184.56;Sim
+287;2026-04-27;06;Despesa administrativa;Correios;134.15;Sim
+288;2026-04-28;07;Manutenção;Pequenos reparos;52.52;Sim
+289;2026-04-28;07;Despesa administrativa;Correios;187.91;Sim
+290;2026-04-12;07;Despesa administrativa;Material de escritório;190.44;Sim
+291;2026-04-16;07;Manutenção;Jardinagem;32.26;Sim
+292;2026-04-02;07;Despesa administrativa;Copa e cozinha;145.49;Sim
+293;2026-04-11;07;Despesa administrativa;Material de limpeza;157.32;Sim
+294;2026-04-07;08;Manutenção;Jardinagem;36.7;Não
+295;2026-04-20;08;Manutenção;Chaveiro;74.66;Sim
+296;2026-04-02;08;Despesa administrativa;Copa e cozinha;139.76;Sim
+297;2026-04-25;08;Despesa administrativa;Cópias e impressões;160.71;Sim
+298;2026-04-16;08;Despesa administrativa;Copa e cozinha;27.23;Sim
+299;2026-04-05;08;Despesa administrativa;Copa e cozinha;139.64;Sim
+300;2026-04-12;08;Despesa administrativa;Material de escritório;54.67;Sim
+301;2026-04-12;08;Manutenção;Material elétrico;60.36;Sim
+302;2026-04-28;08;Manutenção;Pequenos reparos;70.47;Sim
+303;2026-04-26;09;Manutenção;Material elétrico;27.96;Sim
+304;2026-04-01;09;Despesa administrativa;Copa e cozinha;177.41;Sim
+305;2026-04-26;09;Despesa administrativa;Copa e cozinha;27.79;Sim
+306;2026-04-02;09;Manutenção;Jardinagem;29.07;Não
+307;2026-04-22;09;Despesa administrativa;Cópias e impressões;186.18;Sim
+308;2026-04-07;09;Despesa administrativa;Material de limpeza;179.18;Sim
+309;2026-04-11;09;Manutenção;Pequenos reparos;69.12;Sim
+310;2026-04-13;09;Despesa administrativa;Material de limpeza;159.01;Sim
+311;2026-04-01;10;Manutenção;Chaveiro;49.52;Sim
+312;2026-04-28;10;Despesa administrativa;Correios;34.63;Sim
+313;2026-04-14;10;Despesa administrativa;Cópias e impressões;92.64;Sim
+314;2026-04-26;10;Manutenção;Jardinagem;22.01;Sim
+315;2026-04-23;10;Despesa administrativa;Material de limpeza;27.41;Sim
+316;2026-04-18;11;Despesa administrativa;Cópias e impressões;33.82;Sim
+317;2026-04-24;11;Despesa administrativa;Correios;180.33;Sim
+318;2026-04-03;11;Manutenção;Chaveiro;66.19;Sim
+319;2026-04-13;11;Despesa administrativa;Material de escritório;93.52;Sim
+320;2026-04-18;11;Despesa administrativa;Material de limpeza;154.62;Sim
+321;2026-04-14;11;Despesa administrativa;Correios;153.47;Sim
+322;2026-04-01;11;Despesa administrativa;Material de limpeza;54.51;Sim
+323;2026-04-01;12;Despesa administrativa;Correios;177.69;Sim
+324;2026-04-21;12;Despesa administrativa;Cópias e impressões;61.8;Sim
+325;2026-04-20;12;Despesa administrativa;Cópias e impressões;103.58;Sim
+326;2026-05-13;01;Despesa administrativa;Material de limpeza;160.24;Sim
+327;2026-05-17;01;Manutenção;Material elétrico;71.95;Sim
+328;2026-05-04;01;Despesa administrativa;Material de limpeza;164.68;Sim
+329;2026-05-06;01;Despesa administrativa;Cópias e impressões;157.39;Sim
+330;2026-05-12;01;Manutenção;Pequenos reparos;41.87;Sim
+331;2026-05-02;01;Manutenção;Jardinagem;44.71;Sim
+332;2026-05-11;01;Manutenção;Material elétrico;31.22;Sim
+333;2026-05-05;01;Despesa administrativa;Copa e cozinha;59.63;Sim
+334;2026-05-24;01;Despesa administrativa;Material de limpeza;47.73;Sim
+335;2026-05-01;02;Manutenção;Pequenos reparos;22.14;Sim
+336;2026-05-27;02;Manutenção;Pequenos reparos;60.55;Sim
+337;2026-05-27;02;Manutenção;Material elétrico;34.85;Sim
+338;2026-05-17;02;Manutenção;Chaveiro;59.24;Sim
+339;2026-05-04;02;Despesa administrativa;Cópias e impressões;161.04;Sim
+340;2026-05-14;03;Despesa administrativa;Material de escritório;186.38;Sim
+341;2026-05-03;03;Despesa administrativa;Material de escritório;126.41;Sim
+342;2026-05-20;03;Despesa administrativa;Material de escritório;169.97;Sim
+343;2026-05-10;03;Despesa administrativa;Material de escritório;113.99;Sim
+344;2026-05-27;03;Despesa administrativa;Copa e cozinha;138.12;Sim
+345;2026-05-04;03;Despesa administrativa;Material de limpeza;161.91;Sim
+346;2026-05-21;03;Manutenção;Jardinagem;55.87;Sim
+347;2026-05-27;03;Manutenção;Material elétrico;67.44;Sim
+348;2026-05-23;04;Manutenção;Pequenos reparos;35.06;Sim
+349;2026-05-11;04;Despesa administrativa;Correios;87.29;Sim
+350;2026-05-17;04;Despesa administrativa;Material de limpeza;128.63;Sim
+351;2026-05-11;04;Despesa administrativa;Material de limpeza;25.33;Sim
+352;2026-05-13;04;Manutenção;Jardinagem;57.83;Sim
+353;2026-05-28;04;Manutenção;Chaveiro;53.46;Sim
+354;2026-05-27;04;Despesa administrativa;Cópias e impressões;73.96;Sim
+355;2026-05-16;05;Despesa administrativa;Material de escritório;133.6;Sim
+356;2026-05-21;05;Despesa administrativa;Material de escritório;57.66;Sim
+357;2026-05-10;05;Despesa administrativa;Cópias e impressões;117.98;Sim
+358;2026-05-16;05;Manutenção;Pequenos reparos;142.03;Sim
+359;2026-05-09;06;Despesa administrativa;Material de limpeza;168.88;Sim
+360;2026-05-28;06;Despesa administrativa;Cópias e impressões;104.64;Sim
+361;2026-05-23;06;Despesa administrativa;Material de limpeza;125.41;Sim
+362;2026-05-09;06;Manutenção;Pequenos reparos;20.39;Sim
+363;2026-05-18;06;Despesa administrativa;Correios;27.73;Sim
+364;2026-05-11;06;Despesa administrativa;Material de escritório;172.59;Sim
+365;2026-05-19;07;Manutenção;Jardinagem;67.5;Sim
+366;2026-05-15;07;Manutenção;Chaveiro;74.97;Sim
+367;2026-05-14;07;Manutenção;Pequenos reparos;35.17;Sim
+368;2026-05-27;07;Despesa administrativa;Correios;60.78;Sim
+369;2026-05-15;07;Despesa administrativa;Cópias e impressões;164.38;Não
+370;2026-05-04;07;Despesa administrativa;Correios;69.02;Sim
+371;2026-05-15;07;Despesa administrativa;Copa e cozinha;46.04;Sim
+372;2026-05-07;07;Despesa administrativa;Correios;103.13;Sim
+373;2026-05-23;07;Manutenção;Jardinagem;43.81;Sim
+374;2026-05-07;08;Despesa administrativa;Correios;117.59;Sim
+375;2026-05-16;08;Despesa administrativa;Copa e cozinha;55.89;Não
+376;2026-05-26;08;Manutenção;Chaveiro;65.09;Não
+377;2026-05-03;09;Despesa administrativa;Material de limpeza;189.65;Sim
+378;2026-05-10;09;Despesa administrativa;Material de escritório;171.55;Sim
+379;2026-05-05;09;Manutenção;Jardinagem;52.73;Sim
+380;2026-05-05;09;Despesa administrativa;Material de escritório;198.85;Sim
+381;2026-05-23;09;Despesa administrativa;Material de escritório;173.6;Sim
+382;2026-05-08;09;Manutenção;Jardinagem;44.68;Sim
+383;2026-05-26;09;Despesa administrativa;Material de escritório;199.32;Sim
+384;2026-05-01;09;Despesa administrativa;Cópias e impressões;72.62;Sim
+385;2026-05-11;10;Manutenção;Pequenos reparos;28.12;Sim
+386;2026-05-05;10;Manutenção;Chaveiro;22.47;Sim
+387;2026-05-08;10;Despesa administrativa;Material de escritório;185.4;Sim
+388;2026-05-09;10;Despesa administrativa;Material de limpeza;37.34;Sim
+389;2026-05-16;10;Manutenção;Pequenos reparos;56.75;Sim
+390;2026-05-20;10;Manutenção;Jardinagem;50.99;Sim
+391;2026-05-08;10;Despesa administrativa;Material de escritório;42.85;Sim
+392;2026-05-24;10;Despesa administrativa;Cópias e impressões;50.73;Sim
+393;2026-05-16;10;Despesa administrativa;Cópias e impressões;178.48;Sim
+394;2026-05-27;11;Manutenção;Pequenos reparos;42.68;Sim
+395;2026-05-07;11;Manutenção;Jardinagem;65.16;Sim
+396;2026-05-15;11;Manutenção;Material elétrico;44.92;Sim
+397;2026-05-15;11;Despesa administrativa;Material de escritório;43.93;Sim
+398;2026-05-11;11;Despesa administrativa;Material de escritório;112.19;Sim
+399;2026-05-20;11;Despesa administrativa;Material de escritório;82.98;Sim
+400;2026-05-10;11;Manutenção;Jardinagem;21.53;Sim
+401;2026-05-20;11;Manutenção;Material elétrico;59.38;Sim
+402;2026-05-10;12;Despesa administrativa;Correios;81.22;Sim
+403;2026-05-05;12;Despesa administrativa;Correios;94.17;Sim
+404;2026-05-27;12;Despesa administrativa;Material de limpeza;83.53;Não
+405;2026-05-26;12;Manutenção;Chaveiro;63.32;Sim
+406;2026-06-01;01;Despesa administrativa;Correios;199.21;Sim
+407;2026-06-27;01;Despesa administrativa;Copa e cozinha;198.27;Sim
+408;2026-06-23;01;Despesa administrativa;Material de escritório;162.89;Sim
+409;2026-06-09;01;Manutenção;Material elétrico;24.17;Sim
+410;2026-06-18;01;Manutenção;Chaveiro;44.81;Sim
+411;2026-06-13;01;Despesa administrativa;Material de escritório;84.33;Sim
+412;2026-06-20;02;Despesa administrativa;Cópias e impressões;117.25;Sim
+413;2026-06-14;02;Despesa administrativa;Cópias e impressões;193.72;Sim
+414;2026-06-04;02;Despesa administrativa;Copa e cozinha;76.64;Sim
+415;2026-06-19;02;Manutenção;Chaveiro;66.33;Sim
+416;2026-06-23;02;Despesa administrativa;Cópias e impressões;71.32;Sim
+417;2026-06-27;02;Despesa administrativa;Material de limpeza;112.34;Sim
+418;2026-06-05;02;Manutenção;Jardinagem;24.08;Sim
+419;2026-06-24;02;Despesa administrativa;Material de limpeza;140.09;Sim
+420;2026-06-07;03;Manutenção;Pequenos reparos;40.69;Sim
+421;2026-06-23;03;Despesa administrativa;Copa e cozinha;199.1;Sim
+422;2026-06-08;03;Despesa administrativa;Material de escritório;151.13;Sim
+423;2026-06-21;03;Despesa administrativa;Material de escritório;99.02;Sim
+424;2026-06-25;03;Despesa administrativa;Material de limpeza;160.46;Sim
+425;2026-06-26;03;Despesa administrativa;Cópias e impressões;61.81;Sim
+426;2026-06-22;03;Manutenção;Pequenos reparos;25.78;Não
+427;2026-06-24;04;Despesa administrativa;Correios;124.58;Sim
+428;2026-06-10;04;Despesa administrativa;Material de limpeza;175.21;Sim
+429;2026-06-15;04;Manutenção;Chaveiro;55.08;Sim
+430;2026-06-03;04;Despesa administrativa;Correios;47.78;Sim
+431;2026-06-28;04;Manutenção;Material elétrico;31.73;Não
+432;2026-06-11;04;Manutenção;Pequenos reparos;68.92;Sim
+433;2026-06-26;04;Despesa administrativa;Cópias e impressões;136.34;Sim
+434;2026-06-11;05;Despesa administrativa;Material de escritório;115.12;Sim
+435;2026-06-17;05;Despesa administrativa;Material de limpeza;186.91;Sim
+436;2026-06-15;05;Despesa administrativa;Correios;55.2;Sim
+437;2026-06-09;05;Despesa administrativa;Copa e cozinha;183.85;Sim
+438;2026-06-02;05;Despesa administrativa;Correios;118.83;Sim
+439;2026-06-07;05;Despesa administrativa;Correios;40.4;Sim
+440;2026-06-02;05;Despesa administrativa;Material de limpeza;82.74;Sim
+441;2026-06-19;05;Manutenção;Jardinagem;209.54;Sim
+442;2026-06-05;06;Manutenção;Material elétrico;53.84;Sim
+443;2026-06-27;06;Despesa administrativa;Correios;97.4;Sim
+444;2026-06-02;06;Despesa administrativa;Material de limpeza;82.44;Sim
+445;2026-06-22;06;Manutenção;Pequenos reparos;58.83;Não
+446;2026-06-20;06;Despesa administrativa;Cópias e impressões;77.05;Sim
+447;2026-06-19;07;Manutenção;Jardinagem;45.13;Sim
+448;2026-06-12;07;Manutenção;Jardinagem;56.49;Sim
+449;2026-06-15;07;Despesa administrativa;Cópias e impressões;163.46;Sim
+450;2026-06-13;07;Despesa administrativa;Correios;48.21;Sim
+451;2026-06-18;07;Despesa administrativa;Copa e cozinha;34.67;Sim
+452;2026-06-22;07;Despesa administrativa;Cópias e impressões;63.88;Sim
+453;2026-06-13;07;Despesa administrativa;Cópias e impressões;185.08;Sim
+454;2026-06-08;07;Despesa administrativa;Copa e cozinha;28.33;Sim
+455;2026-06-06;08;Despesa administrativa;Cópias e impressões;60.91;Sim
+456;2026-06-20;08;Despesa administrativa;Copa e cozinha;195.31;Sim
+457;2026-06-11;08;Despesa administrativa;Copa e cozinha;96.93;Sim
+458;2026-06-06;08;Despesa administrativa;Material de limpeza;57.71;Sim
+459;2026-06-21;08;Despesa administrativa;Correios;36.67;Sim
+460;2026-06-11;09;Despesa administrativa;Correios;84.11;Sim
+461;2026-06-10;09;Despesa administrativa;Material de limpeza;197.76;Sim
+462;2026-06-03;09;Manutenção;Material elétrico;40.92;Não
+463;2026-06-12;10;Despesa administrativa;Material de escritório;39.13;Sim
+464;2026-06-03;10;Despesa administrativa;Material de limpeza;47.72;Sim
+465;2026-06-23;10;Despesa administrativa;Cópias e impressões;36.65;Sim
+466;2026-06-18;10;Despesa administrativa;Cópias e impressões;175.48;Sim
+467;2026-06-04;10;Manutenção;Chaveiro;25.23;Sim
+468;2026-06-07;10;Despesa administrativa;Cópias e impressões;76.47;Sim
+469;2026-06-16;10;Despesa administrativa;Material de escritório;46.49;Sim
+470;2026-06-01;10;Despesa administrativa;Material de limpeza;144.0;Sim
+471;2026-06-23;10;Despesa administrativa;Cópias e impressões;194.14;Não
+472;2026-06-23;11;Manutenção;Jardinagem;26.56;Sim
+473;2026-06-19;11;Manutenção;Jardinagem;69.55;Sim
+474;2026-06-28;11;Despesa administrativa;Cópias e impressões;54.61;Sim
+475;2026-06-20;11;Manutenção;Chaveiro;34.06;Sim
+476;2026-06-18;11;Despesa administrativa;Material de limpeza;82.8;Sim
+477;2026-06-03;11;Despesa administrativa;Correios;111.84;Sim
+478;2026-06-16;11;Despesa administrativa;Copa e cozinha;56.95;Sim
+479;2026-06-07;12;Manutenção;Jardinagem;27.68;Sim
+480;2026-06-17;12;Manutenção;Jardinagem;39.35;Sim
+481;2026-06-05;12;Manutenção;Pequenos reparos;25.74;Sim
+482;2026-07-16;01;Manutenção;Material elétrico;25.19;Sim
+483;2026-07-12;01;Despesa administrativa;Cópias e impressões;28.97;Sim
+484;2026-07-19;01;Despesa administrativa;Material de limpeza;38.46;Sim
+485;2026-07-11;01;Despesa administrativa;Cópias e impressões;77.7;Sim
+486;2026-07-07;01;Manutenção;Material elétrico;28.95;Sim
+487;2026-07-26;02;Despesa administrativa;Correios;88.65;Sim
+488;2026-07-11;02;Despesa administrativa;Material de escritório;59.98;Sim
+489;2026-07-03;02;Despesa administrativa;Material de limpeza;116.99;Sim
+490;2026-07-07;02;Manutenção;Chaveiro;61.96;Sim
+491;2026-07-14;02;Manutenção;Pequenos reparos;51.3;Sim
+492;2026-07-26;02;Despesa administrativa;Material de escritório;59.94;Sim
+493;2026-07-26;03;Despesa administrativa;Material de escritório;70.61;Sim
+494;2026-07-13;03;Despesa administrativa;Material de limpeza;117.57;Sim
+495;2026-07-27;03;Despesa administrativa;Cópias e impressões;70.91;Sim
+496;2026-07-23;03;Despesa administrativa;Material de limpeza;28.31;Sim
+497;2026-07-16;03;Despesa administrativa;Material de escritório;76.63;Sim
+498;2026-07-18;03;Despesa administrativa;Material de escritório;60.85;Sim
+499;2026-07-11;03;Despesa administrativa;Correios;156.78;Sim
+500;2026-07-17;03;Despesa administrativa;Material de limpeza;86.12;Sim
+501;2026-07-02;04;Despesa administrativa;Material de escritório;71.47;Sim
+502;2026-07-01;04;Manutenção;Chaveiro;33.38;Não
+503;2026-07-27;04;Despesa administrativa;Correios;37.53;Sim
+504;2026-07-20;04;Despesa administrativa;Copa e cozinha;198.93;Sim
+505;2026-07-10;04;Manutenção;Jardinagem;26.2;Não
+506;2026-07-19;04;Despesa administrativa;Material de limpeza;106.4;Sim
+507;2026-07-15;04;Despesa administrativa;Correios;113.53;Sim
+508;2026-07-19;04;Despesa administrativa;Material de limpeza;110.4;Sim
+509;2026-07-01;04;Despesa administrativa;Material de limpeza;159.68;Sim
+510;2026-07-28;05;Despesa administrativa;Material de escritório;164.28;Sim
+511;2026-07-28;05;Despesa administrativa;Copa e cozinha;106.02;Sim
+512;2026-07-12;05;Despesa administrativa;Correios;94.95;Sim
+513;2026-07-20;05;Despesa administrativa;Cópias e impressões;196.45;Sim
+514;2026-07-12;05;Despesa administrativa;Correios;117.14;Não
+515;2026-07-17;05;Despesa administrativa;Material de limpeza;153.89;Sim
+516;2026-07-10;05;Despesa administrativa;Cópias e impressões;39.23;Sim
+517;2026-07-14;05;Manutenção;Chaveiro;224.7;Sim
+518;2026-07-12;05;Manutenção;Pequenos reparos;148.68;Sim
+519;2026-07-04;06;Despesa administrativa;Copa e cozinha;130.95;Sim
+520;2026-07-22;06;Manutenção;Jardinagem;67.61;Sim
+521;2026-07-22;06;Despesa administrativa;Material de escritório;25.19;Sim
+522;2026-07-06;07;Despesa administrativa;Copa e cozinha;176.32;Sim
+523;2026-07-18;07;Despesa administrativa;Copa e cozinha;44.14;Sim
+524;2026-07-06;07;Despesa administrativa;Material de limpeza;133.32;Sim
+525;2026-07-14;07;Despesa administrativa;Material de limpeza;77.32;Sim
+526;2026-07-22;07;Despesa administrativa;Cópias e impressões;195.61;Sim
+527;2026-07-05;07;Manutenção;Pequenos reparos;38.61;Sim
+528;2026-07-02;07;Despesa administrativa;Correios;165.5;Sim
+529;2026-07-05;07;Despesa administrativa;Material de escritório;29.53;Sim
+530;2026-07-03;08;Despesa administrativa;Cópias e impressões;60.29;Sim
+531;2026-07-16;08;Despesa administrativa;Material de limpeza;68.21;Sim
+532;2026-07-28;08;Despesa administrativa;Material de escritório;121.99;Sim
+533;2026-07-26;08;Despesa administrativa;Material de limpeza;97.85;Sim
+534;2026-07-17;08;Despesa administrativa;Material de limpeza;185.95;Sim
+535;2026-07-28;09;Manutenção;Pequenos reparos;64.05;Sim
+536;2026-07-10;09;Despesa administrativa;Correios;86.21;Sim
+537;2026-07-28;09;Manutenção;Material elétrico;64.32;Sim
+538;2026-07-25;09;Manutenção;Chaveiro;34.45;Sim
+539;2026-07-09;09;Despesa administrativa;Material de limpeza;51.49;Sim
+540;2026-07-19;09;Despesa administrativa;Correios;131.18;Sim
+541;2026-07-24;10;Despesa administrativa;Cópias e impressões;31.27;Sim
+542;2026-07-23;10;Despesa administrativa;Correios;127.02;Sim
+543;2026-07-03;10;Manutenção;Pequenos reparos;54.13;Sim
+544;2026-07-22;10;Manutenção;Pequenos reparos;52.49;Sim
+545;2026-07-15;10;Manutenção;Material elétrico;48.25;Sim
+546;2026-07-25;11;Manutenção;Jardinagem;56.91;Sim
+547;2026-07-21;11;Despesa administrativa;Cópias e impressões;113.4;Sim
+548;2026-07-26;11;Despesa administrativa;Correios;72.74;Sim
+549;2026-07-14;11;Despesa administrativa;Material de limpeza;186.65;Sim
+550;2026-07-28;11;Despesa administrativa;Material de escritório;50.8;Sim
+551;2026-07-12;12;Manutenção;Jardinagem;35.28;Sim
+552;2026-07-03;12;Despesa administrativa;Correios;158.04;Sim
+553;2026-07-19;12;Manutenção;Chaveiro;67.29;Não
+554;2026-07-22;12;Despesa administrativa;Correios;42.5;Sim
+555;2026-07-19;12;Despesa administrativa;Cópias e impressões;155.17;Sim
+556;2026-07-01;12;Despesa administrativa;Material de limpeza;109.63;Sim
+557;2026-07-04;12;Manutenção;Jardinagem;48.73;Sim
+558;2026-07-05;12;Despesa administrativa;Correios;46.38;Sim
+559;2026-08-09;01;Despesa administrativa;Material de limpeza;47.85;Sim
+560;2026-08-26;01;Despesa administrativa;Copa e cozinha;28.92;Sim
+561;2026-08-20;01;Despesa administrativa;Material de limpeza;37.99;Sim
+562;2026-08-26;02;Manutenção;Chaveiro;35.94;Sim
+563;2026-08-07;02;Manutenção;Pequenos reparos;39.2;Sim
+564;2026-08-07;02;Despesa administrativa;Material de limpeza;65.97;Sim
+565;2026-08-08;02;Despesa administrativa;Material de limpeza;60.33;Sim
+566;2026-08-18;02;Despesa administrativa;Material de limpeza;139.18;Sim
+567;2026-08-20;02;Despesa administrativa;Material de limpeza;190.32;Sim
+568;2026-08-03;02;Manutenção;Jardinagem;31.84;Sim
+569;2026-08-17;02;Manutenção;Chaveiro;41.16;Sim
+570;2026-08-06;02;Despesa administrativa;Cópias e impressões;149.59;Sim
+571;2026-08-07;03;Despesa administrativa;Material de escritório;197.09;Sim
+572;2026-08-19;03;Despesa administrativa;Correios;97.1;Não
+573;2026-08-04;03;Despesa administrativa;Material de limpeza;85.94;Sim
+574;2026-08-26;03;Manutenção;Chaveiro;20.83;Sim
+575;2026-08-17;03;Manutenção;Material elétrico;35.83;Sim
+576;2026-08-04;03;Despesa administrativa;Correios;128.14;Sim
+577;2026-08-13;03;Despesa administrativa;Material de escritório;28.53;Sim
+578;2026-08-14;04;Despesa administrativa;Material de limpeza;36.38;Sim
+579;2026-08-10;04;Despesa administrativa;Cópias e impressões;119.21;Sim
+580;2026-08-18;04;Despesa administrativa;Material de limpeza;166.69;Sim
+581;2026-08-08;05;Manutenção;Jardinagem;147.17;Sim
+582;2026-08-06;05;Manutenção;Pequenos reparos;233.24;Sim
+583;2026-08-03;05;Despesa administrativa;Correios;37.39;Sim
+584;2026-08-05;05;Manutenção;Chaveiro;75.5;Sim
+585;2026-08-08;06;Manutenção;Jardinagem;35.64;Sim
+586;2026-08-19;06;Despesa administrativa;Copa e cozinha;108.84;Sim
+587;2026-08-17;06;Despesa administrativa;Copa e cozinha;121.71;Sim
+588;2026-08-18;07;Despesa administrativa;Correios;132.25;Sim
+589;2026-08-14;07;Despesa administrativa;Cópias e impressões;31.36;Sim
+590;2026-08-22;07;Despesa administrativa;Cópias e impressões;182.31;Sim
+591;2026-08-13;08;Despesa administrativa;Material de limpeza;28.06;Sim
+592;2026-08-05;08;Despesa administrativa;Correios;39.38;Não
+593;2026-08-02;08;Despesa administrativa;Copa e cozinha;32.93;Sim
+594;2026-08-17;08;Manutenção;Chaveiro;29.01;Sim
+595;2026-08-20;08;Despesa administrativa;Correios;117.37;Sim
+596;2026-08-20;08;Despesa administrativa;Correios;131.69;Sim
+597;2026-08-08;08;Despesa administrativa;Cópias e impressões;102.9;Sim
+598;2026-08-13;09;Manutenção;Material elétrico;28.39;Sim
+599;2026-08-20;09;Despesa administrativa;Material de limpeza;40.66;Sim
+600;2026-08-17;09;Manutenção;Material elétrico;70.86;Sim
+601;2026-08-16;09;Despesa administrativa;Material de limpeza;110.47;Sim
+602;2026-08-20;10;Despesa administrativa;Material de escritório;76.51;Sim
+603;2026-08-02;10;Despesa administrativa;Material de limpeza;45.95;Sim
+604;2026-08-06;10;Despesa administrativa;Material de escritório;159.9;Sim
+605;2026-08-05;10;Despesa administrativa;Correios;85.48;Sim
+606;2026-08-01;10;Despesa administrativa;Correios;199.25;Sim
+607;2026-08-21;11;Despesa administrativa;Cópias e impressões;168.96;Sim
+608;2026-08-26;11;Despesa administrativa;Material de escritório;80.78;Sim
+609;2026-08-23;11;Despesa administrativa;Cópias e impressões;150.81;Sim
+610;2026-08-27;11;Despesa administrativa;Material de limpeza;95.1;Sim
+611;2026-08-12;11;Manutenção;Jardinagem;25.73;Sim
+612;2026-08-25;11;Despesa administrativa;Correios;38.86;Sim
+613;2026-08-21;11;Manutenção;Jardinagem;24.33;Sim
+614;2026-08-22;11;Manutenção;Material elétrico;46.48;Sim
+615;2026-08-04;11;Manutenção;Chaveiro;56.78;Sim
+616;2026-08-10;12;Despesa administrativa;Copa e cozinha;190.16;Sim
+617;2026-08-07;12;Manutenção;Jardinagem;21.75;Sim
+618;2026-08-04;12;Despesa administrativa;Cópias e impressões;76.68;Sim
+619;2026-08-20;12;Despesa administrativa;Copa e cozinha;138.87;Sim
+620;2026-09-26;01;Despesa administrativa;Material de limpeza;66.53;Sim
+621;2026-09-03;01;Despesa administrativa;Material de limpeza;168.72;Sim
+622;2026-09-07;01;Manutenção;Material elétrico;62.08;Sim
+623;2026-09-10;01;Despesa administrativa;Material de limpeza;108.74;Não
+624;2026-09-22;01;Despesa administrativa;Material de limpeza;166.7;Sim
+625;2026-09-08;01;Manutenção;Jardinagem;66.92;Sim
+626;2026-09-06;01;Manutenção;Material elétrico;67.34;Não
+627;2026-09-02;01;Despesa administrativa;Cópias e impressões;168.88;Sim
+628;2026-09-16;02;Despesa administrativa;Material de limpeza;150.17;Sim
+629;2026-09-27;02;Despesa administrativa;Material de escritório;135.28;Não
+630;2026-09-06;02;Manutenção;Chaveiro;51.58;Sim
+631;2026-09-14;02;Despesa administrativa;Correios;183.67;Sim
+632;2026-09-10;02;Despesa administrativa;Copa e cozinha;117.68;Sim
+633;2026-09-10;02;Despesa administrativa;Material de limpeza;185.81;Sim
+634;2026-09-06;02;Despesa administrativa;Cópias e impressões;35.22;Sim
+635;2026-09-07;03;Despesa administrativa;Material de limpeza;184.0;Sim
+636;2026-09-14;03;Despesa administrativa;Correios;106.48;Sim
+637;2026-09-06;03;Despesa administrativa;Copa e cozinha;115.34;Sim
+638;2026-09-13;03;Manutenção;Jardinagem;58.88;Sim
+639;2026-09-09;03;Despesa administrativa;Material de escritório;143.43;Sim
+640;2026-09-03;03;Manutenção;Jardinagem;70.79;Sim
+641;2026-09-09;03;Despesa administrativa;Correios;128.34;Sim
+642;2026-09-12;03;Despesa administrativa;Copa e cozinha;115.07;Sim
+643;2026-09-19;04;Despesa administrativa;Correios;143.47;Sim
+644;2026-09-17;04;Manutenção;Pequenos reparos;60.52;Sim
+645;2026-09-24;04;Despesa administrativa;Copa e cozinha;36.0;Sim
+646;2026-09-19;05;Despesa administrativa;Cópias e impressões;188.75;Sim
+647;2026-09-07;05;Manutenção;Jardinagem;165.41;Sim
+648;2026-09-14;05;Despesa administrativa;Cópias e impressões;97.51;Sim
+649;2026-09-06;05;Despesa administrativa;Material de limpeza;68.33;Sim
+650;2026-09-16;05;Manutenção;Chaveiro;114.52;Sim
+651;2026-09-17;05;Manutenção;Chaveiro;133.03;Sim
+652;2026-09-18;06;Manutenção;Material elétrico;50.75;Sim
+653;2026-09-12;06;Despesa administrativa;Correios;52.24;Sim
+654;2026-09-13;06;Manutenção;Pequenos reparos;39.69;Sim
+655;2026-09-25;06;Manutenção;Material elétrico;50.37;Sim
+656;2026-09-10;06;Despesa administrativa;Correios;27.98;Sim
+657;2026-09-22;07;Manutenção;Material elétrico;44.53;Sim
+658;2026-09-21;07;Despesa administrativa;Copa e cozinha;44.52;Sim
+659;2026-09-12;07;Despesa administrativa;Copa e cozinha;153.94;Sim
+660;2026-09-14;08;Manutenção;Pequenos reparos;47.64;Sim
+661;2026-09-04;08;Manutenção;Pequenos reparos;37.5;Sim
+662;2026-09-22;08;Despesa administrativa;Correios;80.67;Sim
+663;2026-09-01;09;Manutenção;Pequenos reparos;55.85;Sim
+664;2026-09-11;09;Despesa administrativa;Correios;161.02;Sim
+665;2026-09-27;09;Despesa administrativa;Material de limpeza;158.49;Sim
+666;2026-09-22;09;Manutenção;Material elétrico;26.15;Sim
+667;2026-09-04;09;Despesa administrativa;Cópias e impressões;70.3;Sim
+668;2026-09-08;09;Despesa administrativa;Material de escritório;176.59;Sim
+669;2026-09-03;09;Despesa administrativa;Copa e cozinha;95.1;Sim
+670;2026-09-08;09;Despesa administrativa;Material de limpeza;176.49;Não
+671;2026-09-19;09;Despesa administrativa;Material de escritório;98.72;Sim
+672;2026-09-03;10;Manutenção;Pequenos reparos;38.85;Sim
+673;2026-09-05;10;Despesa administrativa;Material de limpeza;42.37;Sim
+674;2026-09-25;10;Despesa administrativa;Correios;175.44;Sim
+675;2026-09-05;10;Despesa administrativa;Material de escritório;52.45;Sim
+676;2026-09-26;10;Despesa administrativa;Copa e cozinha;132.69;Não
+677;2026-09-26;10;Despesa administrativa;Material de limpeza;119.59;Sim
+678;2026-09-21;10;Despesa administrativa;Material de escritório;197.95;Sim
+679;2026-09-24;10;Despesa administrativa;Material de limpeza;79.17;Sim
+680;2026-09-06;11;Despesa administrativa;Material de escritório;66.99;Sim
+681;2026-09-13;11;Manutenção;Jardinagem;50.73;Sim
+682;2026-09-14;11;Manutenção;Pequenos reparos;62.58;Sim
+683;2026-09-19;11;Despesa administrativa;Material de limpeza;44.45;Sim
+684;2026-09-03;11;Manutenção;Chaveiro;31.25;Sim
+685;2026-09-07;11;Despesa administrativa;Cópias e impressões;111.91;Sim
+686;2026-09-13;11;Despesa administrativa;Copa e cozinha;151.76;Sim
+687;2026-09-11;11;Despesa administrativa;Copa e cozinha;89.49;Sim
+688;2026-09-28;11;Despesa administrativa;Material de limpeza;66.21;Sim
+689;2026-09-18;12;Despesa administrativa;Cópias e impressões;166.64;Sim
+690;2026-09-08;12;Despesa administrativa;Material de escritório;185.24;Sim
+691;2026-09-07;12;Manutenção;Material elétrico;56.25;Sim
+692;2026-09-06;12;Manutenção;Pequenos reparos;40.22;Sim
+693;2026-09-21;12;Despesa administrativa;Cópias e impressões;159.5;Sim
+694;2026-09-10;12;Despesa administrativa;Copa e cozinha;103.89;Sim
+695;2026-09-13;12;Despesa administrativa;Correios;125.32;Sim
+696;2026-09-28;12;Manutenção;Jardinagem;53.99;Sim
+697;2026-09-05;12;Manutenção;Pequenos reparos;56.33;Sim
+698;2026-10-23;01;Despesa administrativa;Material de limpeza;93.16;Sim
+699;2026-10-05;01;Despesa administrativa;Material de limpeza;124.55;Sim
+700;2026-10-26;01;Manutenção;Jardinagem;27.82;Sim
+701;2026-10-02;01;Despesa administrativa;Copa e cozinha;190.39;Sim
+702;2026-10-16;01;Despesa administrativa;Cópias e impressões;48.17;Sim
+703;2026-10-04;01;Despesa administrativa;Material de limpeza;90.55;Não
+704;2026-10-25;02;Despesa administrativa;Material de limpeza;42.02;Sim
+705;2026-10-16;02;Manutenção;Pequenos reparos;53.84;Sim
+706;2026-10-26;02;Despesa administrativa;Material de escritório;146.49;Sim
+707;2026-10-12;02;Despesa administrativa;Material de limpeza;106.85;Sim
+708;2026-10-05;03;Despesa administrativa;Material de escritório;185.6;Sim
+709;2026-10-26;03;Manutenção;Chaveiro;45.86;Sim
+710;2026-10-07;03;Despesa administrativa;Copa e cozinha;147.82;Sim
+711;2026-10-27;03;Despesa administrativa;Correios;188.09;Sim
+712;2026-10-18;03;Despesa administrativa;Material de escritório;123.95;Sim
+713;2026-10-14;03;Despesa administrativa;Material de limpeza;164.66;Sim
+714;2026-10-21;03;Manutenção;Material elétrico;69.79;Sim
+715;2026-10-17;03;Despesa administrativa;Material de escritório;170.81;Sim
+716;2026-10-16;03;Manutenção;Jardinagem;65.34;Não
+717;2026-10-05;04;Despesa administrativa;Material de escritório;49.26;Sim
+718;2026-10-11;04;Manutenção;Material elétrico;67.37;Sim
+719;2026-10-17;04;Despesa administrativa;Material de escritório;162.66;Sim
+720;2026-10-19;04;Manutenção;Material elétrico;36.2;Sim
+721;2026-10-15;04;Despesa administrativa;Cópias e impressões;38.09;Sim
+722;2026-10-15;04;Manutenção;Material elétrico;20.01;Sim
+723;2026-10-28;04;Manutenção;Pequenos reparos;40.56;Sim
+724;2026-10-12;05;Despesa administrativa;Cópias e impressões;136.83;Sim
+725;2026-10-22;05;Manutenção;Jardinagem;231.53;Sim
+726;2026-10-01;05;Manutenção;Jardinagem;208.25;Sim
+727;2026-10-09;05;Manutenção;Chaveiro;102.62;Sim
+728;2026-10-24;06;Despesa administrativa;Material de escritório;104.48;Sim
+729;2026-10-24;06;Despesa administrativa;Copa e cozinha;124.79;Sim
+730;2026-10-22;06;Manutenção;Material elétrico;45.19;Sim
+731;2026-10-24;06;Manutenção;Chaveiro;72.75;Sim
+732;2026-10-11;06;Manutenção;Chaveiro;37.95;Não
+733;2026-10-09;07;Despesa administrativa;Material de limpeza;29.82;Sim
+734;2026-10-07;07;Despesa administrativa;Material de escritório;73.71;Sim
+735;2026-10-11;07;Despesa administrativa;Material de escritório;105.04;Sim
+736;2026-10-14;08;Despesa administrativa;Copa e cozinha;181.57;Sim
+737;2026-10-22;08;Manutenção;Jardinagem;49.7;Sim
+738;2026-10-06;08;Manutenção;Chaveiro;49.04;Sim
+739;2026-10-27;08;Despesa administrativa;Material de limpeza;127.59;Sim
+740;2026-10-21;08;Despesa administrativa;Correios;83.35;Sim
+741;2026-10-23;08;Despesa administrativa;Correios;178.45;Sim
+742;2026-10-04;08;Manutenção;Pequenos reparos;21.0;Sim
+743;2026-10-18;08;Manutenção;Material elétrico;27.11;Não
+744;2026-10-05;08;Despesa administrativa;Copa e cozinha;81.37;Sim
+745;2026-10-23;09;Manutenção;Material elétrico;58.48;Sim
+746;2026-10-16;09;Despesa administrativa;Material de escritório;40.37;Sim
+747;2026-10-13;09;Despesa administrativa;Cópias e impressões;166.66;Sim
+748;2026-10-03;09;Manutenção;Pequenos reparos;59.15;Sim
+749;2026-10-22;10;Despesa administrativa;Material de limpeza;191.39;Sim
+750;2026-10-06;10;Despesa administrativa;Copa e cozinha;161.71;Sim
+751;2026-10-01;10;Despesa administrativa;Material de limpeza;103.77;Sim
+752;2026-10-01;10;Despesa administrativa;Correios;42.51;Sim
+753;2026-10-06;10;Despesa administrativa;Correios;64.16;Sim
+754;2026-10-10;10;Despesa administrativa;Material de escritório;143.67;Sim
+755;2026-10-13;10;Manutenção;Material elétrico;51.53;Sim
+756;2026-10-17;11;Despesa administrativa;Material de limpeza;94.24;Sim
+757;2026-10-17;11;Despesa administrativa;Material de limpeza;170.82;Sim
+758;2026-10-17;11;Despesa administrativa;Material de escritório;72.97;Sim
+759;2026-10-01;11;Despesa administrativa;Cópias e impressões;78.35;Não
+760;2026-10-06;11;Manutenção;Jardinagem;65.09;Sim
+761;2026-10-11;11;Manutenção;Jardinagem;63.48;Sim
+762;2026-10-10;11;Manutenção;Material elétrico;46.67;Sim
+763;2026-10-24;11;Despesa administrativa;Cópias e impressões;96.28;Não
+764;2026-10-17;11;Despesa administrativa;Copa e cozinha;173.09;Sim
+765;2026-10-05;12;Despesa administrativa;Material de limpeza;198.01;Sim
+766;2026-10-23;12;Despesa administrativa;Copa e cozinha;44.21;Sim
+767;2026-10-19;12;Despesa administrativa;Copa e cozinha;25.06;Sim
+768;2026-10-05;12;Despesa administrativa;Correios;135.54;Sim
+769;2026-10-23;12;Despesa administrativa;Material de escritório;40.41;Sim
+770;2026-10-10;12;Manutenção;Material elétrico;72.9;Sim
+771;2026-10-09;12;Manutenção;Chaveiro;40.32;Sim
+772;2026-10-19;12;Despesa administrativa;Material de escritório;179.65;Sim

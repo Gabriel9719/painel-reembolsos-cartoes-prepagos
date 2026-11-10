@@ -1,0 +1,55 @@
+// =============================================================================
+// Painel de reembolsos e cartões pré-pagos — medidas DAX
+// Autor: Gabriel Antônio Ribeiro · dados fictícios
+// As regras (limite de manutenção, prazo da prestação, tarifa de km, conciliação)
+// já chegam calculadas do ETL; aqui ficam só agregações e indicadores.
+// =============================================================================
+
+// ---------- Reembolsos -------------------------------------------------------
+Reembolsos (R$) = SUM ( fReembolso[valor] )
+Qtd Reembolsos = COUNTROWS ( fReembolso )
+Reembolsos Veículo Alugado (R$) =
+    CALCULATE ( [Reembolsos (R$)], fReembolso[veiculo_alugado] = TRUE () )
+Km Rodados = SUM ( fReembolso[km] )
+Custo por Km (veículo alugado) =
+    DIVIDE ( [Reembolsos Veículo Alugado (R$)], CALCULATE ( [Km Rodados], fReembolso[veiculo_alugado] = TRUE () ) )
+Alertas de Km = CALCULATE ( [Qtd Reembolsos], fReembolso[alerta_km] = TRUE () )
+Diferença Km (R$) = SUM ( fReembolso[divergencia_km] )
+% Enviado Fora do Prazo =
+    DIVIDE ( CALCULATE ( [Qtd Reembolsos], fReembolso[fora_do_prazo_envio] = TRUE () ), [Qtd Reembolsos] )
+Prazo Médio até Pagamento (dias) = AVERAGE ( fReembolso[dias_ate_pagamento] )
+
+// ---------- Cartões pré-pagos ----------------------------------------------------
+Créditos nos Cartões (R$) = SUM ( fCredito[credito_total] )
+Gasto nos Cartões (R$) = SUM ( fCompraCartao[valor] )
+% Utilização do Crédito = DIVIDE ( [Gasto nos Cartões (R$)], [Créditos nos Cartões (R$)] )
+Gasto Manutenção (R$) = SUM ( fUsoManutencao[gasto_manutencao] )
+Excedente Manutenção (R$) = SUM ( fUsoManutencao[excedente] )
+PA-mês acima do limite = CALCULATE ( COUNTROWS ( fUsoManutencao ), fUsoManutencao[estourou_limite] = TRUE () )
+Compras sem Comprovante = CALCULATE ( COUNTROWS ( fCompraCartao ), fCompraCartao[comprovante] = "Não" )
+
+// ---------- Prestação de contas (prazo: dia 15 do mês seguinte) -------------------
+Prestações com Atraso =
+    CALCULATE ( COUNTROWS ( fPrestacao ),
+        fPrestacao[status] IN { "Enviada com atraso", "Pendente (atrasada)" } )
+% Prestações no Prazo =
+    DIVIDE ( CALCULATE ( COUNTROWS ( fPrestacao ), fPrestacao[status] = "No prazo" ),
+             CALCULATE ( COUNTROWS ( fPrestacao ), fPrestacao[status] <> "Aguardando (no prazo)" ) )
+Atraso Médio (dias) =
+    AVERAGEX ( FILTER ( fPrestacao, fPrestacao[dias_atraso] > 0 ), fPrestacao[dias_atraso] )
+
+// ---------- Fundo fixo e baixas no sistema ------------------------------------------
+Baixado no Sistema (R$) = SUM ( fCompraCartao[valor_baixado] )
+Falta Baixar (R$) = [Gasto nos Cartões (R$)] - [Baixado no Sistema (R$)]
+% Baixado = DIVIDE ( [Baixado no Sistema (R$)], [Gasto nos Cartões (R$)] )
+Créditos à Plataforma (R$) = SUM ( fFundoFixo[creditos] )
+Devoluções (R$) = SUM ( fFundoFixo[devolucoes] )
+Saldo Fundo Fixo (R$) = [Créditos à Plataforma (R$)] - [Devoluções (R$)] - [Baixado no Sistema (R$)]
+Saldo Fundo Fixo Acumulado (R$) =
+    VAR _ultima = MAX ( fFundoFixo[competencia] )
+    RETURN
+        CALCULATE (
+            SUM ( fFundoFixo[saldo_fundo_fixo] ),
+            REMOVEFILTERS ( fFundoFixo[competencia] ),
+            fFundoFixo[competencia] <= _ultima
+        )
