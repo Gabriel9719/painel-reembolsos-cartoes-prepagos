@@ -46,10 +46,10 @@ Créditos à Plataforma (R$) = SUM ( fFundoFixo[creditos] )
 Devoluções (R$) = SUM ( fFundoFixo[devolucoes] )
 Saldo Fundo Fixo (R$) = [Créditos à Plataforma (R$)] - [Devoluções (R$)] - [Baixado no Sistema (R$)]
 Saldo Fundo Fixo Acumulado (R$) =
-    VAR _ultima = MAX ( fFundoFixo[competencia] )
+    VAR _ultima = MAX ( dCompetencia[competencia] )
     RETURN
         CALCULATE (
             SUM ( fFundoFixo[saldo_fundo_fixo] ),
-            REMOVEFILTERS ( fFundoFixo[competencia] ),
-            fFundoFixo[competencia] <= _ultima
+            REMOVEFILTERS ( dCompetencia ),
+            dCompetencia[competencia] <= _ultima
         )

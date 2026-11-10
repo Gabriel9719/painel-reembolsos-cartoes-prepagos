@@ -1,0 +1,262 @@
+{
+  "config": "{\"version\": \"5.43\", \"activeSectionIndex\": 0, \"objects\": {}}",
+  "layoutOptimization": 0,
+  "sections": [
+    {
+      "name": "a4cd6b8b51ad456dbe55",
+      "displayName": "Reembolsos",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720,
+      "ordinal": 0,
+      "config": "{}",
+      "filters": "[]",
+      "visualContainers": [
+        {
+          "x": 20,
+          "y": 20,
+          "z": 0,
+          "width": 240,
+          "height": 110,
+          "config": "{\"name\": \"69fbc0e70e3347a6a5cd\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 20, \"z\": 0, \"width\": 240, \"height\": 110}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"_Medidas.Reembolsos (R$)\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"_Medidas\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Reembolsos (R$)\"}, \"Name\": \"_Medidas.Reembolsos (R$)\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Reembolsos'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 270,
+          "y": 20,
+          "z": 0,
+          "width": 240,
+          "height": 110,
+          "config": "{\"name\": \"4e83a81c10864ccaa6c3\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 270, \"y\": 20, \"z\": 0, \"width\": 240, \"height\": 110}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"_Medidas.Reembolsos Veículo Alugado (R$)\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"_Medidas\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Reembolsos Veículo Alugado (R$)\"}, \"Name\": \"_Medidas.Reembolsos Veículo Alugado (R$)\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Veículo alugado'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 520,
+          "y": 20,
+          "z": 0,
+          "width": 240,
+          "height": 110,
+          "config": "{\"name\": \"9efb37f29e4d4f4fa8ce\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 520, \"y\": 20, \"z\": 0, \"width\": 240, \"height\": 110}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"_Medidas.Custo por Km (veículo alugado)\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"_Medidas\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Custo por Km (veículo alugado)\"}, \"Name\": \"_Medidas.Custo por Km (veículo alugado)\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Custo por km (alugado)'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 770,
+          "y": 20,
+          "z": 0,
+          "width": 240,
+          "height": 110,
+          "config": "{\"name\": \"24a07325694342238666\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 770, \"y\": 20, \"z\": 0, \"width\": 240, \"height\": 110}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"_Medidas.Alertas de Km\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"_Medidas\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Alertas de Km\"}, \"Name\": \"_Medidas.Alertas de Km\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Alertas de km'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 1020,
+          "y": 20,
+          "z": 0,
+          "width": 240,
+          "height": 110,
+          "config": "{\"name\": \"a023dabcf9b648ab94c7\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 1020, \"y\": 20, \"z\": 0, \"width\": 240, \"height\": 110}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"_Medidas.% Enviado Fora do Prazo\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"_Medidas\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"% Enviado Fora do Prazo\"}, \"Name\": \"_Medidas.% Enviado Fora do Prazo\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Enviado fora do prazo'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 20,
+          "y": 150,
+          "z": 0,
+          "width": 620,
+          "height": 550,
+          "config": "{\"name\": \"59f38f1c161f453a9476\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 150, \"z\": 0, \"width\": 620, \"height\": 550}}], \"singleVisual\": {\"visualType\": \"clusteredBarChart\", \"projections\": {\"Category\": [{\"queryRef\": \"fReembolso.tipo\", \"active\": true}], \"Y\": [{\"queryRef\": \"_Medidas.Reembolsos (R$)\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"_Medidas\", \"Type\": 0}, {\"Name\": \"t1\", \"Entity\": \"fReembolso\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t1\"}}, \"Property\": \"tipo\"}, \"Name\": \"fReembolso.tipo\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Reembolsos (R$)\"}, \"Name\": \"_Medidas.Reembolsos (R$)\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Reembolsos por tipo'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 660,
+          "y": 150,
+          "z": 0,
+          "width": 600,
+          "height": 550,
+          "config": "{\"name\": \"06e45f4a503c40c98d86\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 660, \"y\": 150, \"z\": 0, \"width\": 600, \"height\": 550}}], \"singleVisual\": {\"visualType\": \"tableEx\", \"projections\": {\"Values\": [{\"queryRef\": \"fReembolso.colaborador\"}, {\"queryRef\": \"_Medidas.Qtd Reembolsos\"}, {\"queryRef\": \"_Medidas.Reembolsos (R$)\"}, {\"queryRef\": \"_Medidas.Alertas de Km\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"_Medidas\", \"Type\": 0}, {\"Name\": \"t1\", \"Entity\": \"fReembolso\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t1\"}}, \"Property\": \"colaborador\"}, \"Name\": \"fReembolso.colaborador\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Qtd Reembolsos\"}, \"Name\": \"_Medidas.Qtd Reembolsos\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Reembolsos (R$)\"}, \"Name\": \"_Medidas.Reembolsos (R$)\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Alertas de Km\"}, \"Name\": \"_Medidas.Alertas de Km\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Por colaborador'\"}}}}}]}}}",
+          "filters": "[]"
+        }
+      ]
+    },
+    {
+      "name": "ed2e5edf20044826806c",
+      "displayName": "Cartões e manutenção",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720,
+      "ordinal": 1,
+      "config": "{}",
+      "filters": "[]",
+      "visualContainers": [
+        {
+          "x": 20,
+          "y": 20,
+          "z": 0,
+          "width": 240,
+          "height": 110,
+          "config": "{\"name\": \"4f01ca63a8e84289a505\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 20, \"z\": 0, \"width\": 240, \"height\": 110}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"_Medidas.Créditos nos Cartões (R$)\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"_Medidas\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Créditos nos Cartões (R$)\"}, \"Name\": \"_Medidas.Créditos nos Cartões (R$)\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Créditos'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 270,
+          "y": 20,
+          "z": 0,
+          "width": 240,
+          "height": 110,
+          "config": "{\"name\": \"4191d1b43c4d4976af99\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 270, \"y\": 20, \"z\": 0, \"width\": 240, \"height\": 110}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"_Medidas.Gasto nos Cartões (R$)\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"_Medidas\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Gasto nos Cartões (R$)\"}, \"Name\": \"_Medidas.Gasto nos Cartões (R$)\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Gasto'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 520,
+          "y": 20,
+          "z": 0,
+          "width": 240,
+          "height": 110,
+          "config": "{\"name\": \"8b672362dde94cba91d6\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 520, \"y\": 20, \"z\": 0, \"width\": 240, \"height\": 110}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"_Medidas.% Utilização do Crédito\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"_Medidas\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"% Utilização do Crédito\"}, \"Name\": \"_Medidas.% Utilização do Crédito\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Utilização'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 770,
+          "y": 20,
+          "z": 0,
+          "width": 240,
+          "height": 110,
+          "config": "{\"name\": \"7336d1d5cab24ae5b410\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 770, \"y\": 20, \"z\": 0, \"width\": 240, \"height\": 110}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"_Medidas.PA-mês acima do limite\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"_Medidas\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"PA-mês acima do limite\"}, \"Name\": \"_Medidas.PA-mês acima do limite\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'PA-mês acima do limite'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 1020,
+          "y": 20,
+          "z": 0,
+          "width": 240,
+          "height": 110,
+          "config": "{\"name\": \"5e7f2d56c34540aa8b78\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 1020, \"y\": 20, \"z\": 0, \"width\": 240, \"height\": 110}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"_Medidas.Compras sem Comprovante\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"_Medidas\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Compras sem Comprovante\"}, \"Name\": \"_Medidas.Compras sem Comprovante\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Sem comprovante'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 20,
+          "y": 150,
+          "z": 0,
+          "width": 1240,
+          "height": 550,
+          "config": "{\"name\": \"4dd8079340884d6fa0a8\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 150, \"z\": 0, \"width\": 1240, \"height\": 550}}], \"singleVisual\": {\"visualType\": \"clusteredColumnChart\", \"projections\": {\"Category\": [{\"queryRef\": \"dPA.nome_pa\", \"active\": true}], \"Y\": [{\"queryRef\": \"_Medidas.Gasto Manutenção (R$)\"}, {\"queryRef\": \"_Medidas.Excedente Manutenção (R$)\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"_Medidas\", \"Type\": 0}, {\"Name\": \"t1\", \"Entity\": \"dPA\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t1\"}}, \"Property\": \"nome_pa\"}, \"Name\": \"dPA.nome_pa\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Gasto Manutenção (R$)\"}, \"Name\": \"_Medidas.Gasto Manutenção (R$)\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Excedente Manutenção (R$)\"}, \"Name\": \"_Medidas.Excedente Manutenção (R$)\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Manutenção por PA (limite R$ 300/mês)'\"}}}}}]}}}",
+          "filters": "[]"
+        }
+      ]
+    },
+    {
+      "name": "88679a6374354eb183e3",
+      "displayName": "Prestação de contas",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720,
+      "ordinal": 2,
+      "config": "{}",
+      "filters": "[]",
+      "visualContainers": [
+        {
+          "x": 20,
+          "y": 20,
+          "z": 0,
+          "width": 240,
+          "height": 110,
+          "config": "{\"name\": \"cba4f05d7c074320a6ce\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 20, \"z\": 0, \"width\": 240, \"height\": 110}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"_Medidas.% Prestações no Prazo\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"_Medidas\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"% Prestações no Prazo\"}, \"Name\": \"_Medidas.% Prestações no Prazo\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'No prazo'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 270,
+          "y": 20,
+          "z": 0,
+          "width": 240,
+          "height": 110,
+          "config": "{\"name\": \"f2ce1ad23e174fcd9f2a\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 270, \"y\": 20, \"z\": 0, \"width\": 240, \"height\": 110}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"_Medidas.Prestações com Atraso\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"_Medidas\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Prestações com Atraso\"}, \"Name\": \"_Medidas.Prestações com Atraso\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Com atraso'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 520,
+          "y": 20,
+          "z": 0,
+          "width": 240,
+          "height": 110,
+          "config": "{\"name\": \"61a0837d006e402db75f\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 520, \"y\": 20, \"z\": 0, \"width\": 240, \"height\": 110}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"_Medidas.Atraso Médio (dias)\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"_Medidas\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Atraso Médio (dias)\"}, \"Name\": \"_Medidas.Atraso Médio (dias)\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Atraso médio (dias)'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 20,
+          "y": 150,
+          "z": 0,
+          "width": 1240,
+          "height": 550,
+          "config": "{\"name\": \"8b5e0eb519ec4bd583ec\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 150, \"z\": 0, \"width\": 1240, \"height\": 550}}], \"singleVisual\": {\"visualType\": \"tableEx\", \"projections\": {\"Values\": [{\"queryRef\": \"dPA.nome_pa\"}, {\"queryRef\": \"_Medidas.Prestações com Atraso\"}, {\"queryRef\": \"_Medidas.Atraso Médio (dias)\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"_Medidas\", \"Type\": 0}, {\"Name\": \"t1\", \"Entity\": \"dPA\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t1\"}}, \"Property\": \"nome_pa\"}, \"Name\": \"dPA.nome_pa\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Prestações com Atraso\"}, \"Name\": \"_Medidas.Prestações com Atraso\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Atraso Médio (dias)\"}, \"Name\": \"_Medidas.Atraso Médio (dias)\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Atrasos por PA'\"}}}}}]}}}",
+          "filters": "[]"
+        }
+      ]
+    },
+    {
+      "name": "ef7f4fd8d1304280bf12",
+      "displayName": "Fundo fixo",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720,
+      "ordinal": 3,
+      "config": "{}",
+      "filters": "[]",
+      "visualContainers": [
+        {
+          "x": 20,
+          "y": 20,
+          "z": 0,
+          "width": 240,
+          "height": 110,
+          "config": "{\"name\": \"4556439f165e4d2fbed5\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 20, \"z\": 0, \"width\": 240, \"height\": 110}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"_Medidas.Créditos à Plataforma (R$)\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"_Medidas\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Créditos à Plataforma (R$)\"}, \"Name\": \"_Medidas.Créditos à Plataforma (R$)\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Créditos à plataforma'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 270,
+          "y": 20,
+          "z": 0,
+          "width": 240,
+          "height": 110,
+          "config": "{\"name\": \"9ded3d87a6754843a1f6\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 270, \"y\": 20, \"z\": 0, \"width\": 240, \"height\": 110}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"_Medidas.Baixado no Sistema (R$)\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"_Medidas\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Baixado no Sistema (R$)\"}, \"Name\": \"_Medidas.Baixado no Sistema (R$)\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Baixado no sistema'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 520,
+          "y": 20,
+          "z": 0,
+          "width": 240,
+          "height": 110,
+          "config": "{\"name\": \"58f53fbbe80440498dc6\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 520, \"y\": 20, \"z\": 0, \"width\": 240, \"height\": 110}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"_Medidas.Falta Baixar (R$)\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"_Medidas\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Falta Baixar (R$)\"}, \"Name\": \"_Medidas.Falta Baixar (R$)\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Falta baixar'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 770,
+          "y": 20,
+          "z": 0,
+          "width": 240,
+          "height": 110,
+          "config": "{\"name\": \"0980c4900f11422f90ae\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 770, \"y\": 20, \"z\": 0, \"width\": 240, \"height\": 110}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"_Medidas.% Baixado\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"_Medidas\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"% Baixado\"}, \"Name\": \"_Medidas.% Baixado\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'% baixado'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 1020,
+          "y": 20,
+          "z": 0,
+          "width": 240,
+          "height": 110,
+          "config": "{\"name\": \"75b65d5bae3e4f64a321\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 1020, \"y\": 20, \"z\": 0, \"width\": 240, \"height\": 110}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"_Medidas.Saldo Fundo Fixo Acumulado (R$)\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"_Medidas\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Saldo Fundo Fixo Acumulado (R$)\"}, \"Name\": \"_Medidas.Saldo Fundo Fixo Acumulado (R$)\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Saldo acumulado'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 20,
+          "y": 150,
+          "z": 0,
+          "width": 1240,
+          "height": 550,
+          "config": "{\"name\": \"eb01df89073c4cb284de\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 150, \"z\": 0, \"width\": 1240, \"height\": 550}}], \"singleVisual\": {\"visualType\": \"clusteredColumnChart\", \"projections\": {\"Category\": [{\"queryRef\": \"dCompetencia.competencia\", \"active\": true}], \"Y\": [{\"queryRef\": \"_Medidas.Gasto nos Cartões (R$)\"}, {\"queryRef\": \"_Medidas.Baixado no Sistema (R$)\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"_Medidas\", \"Type\": 0}, {\"Name\": \"t1\", \"Entity\": \"dCompetencia\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t1\"}}, \"Property\": \"competencia\"}, \"Name\": \"dCompetencia.competencia\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Gasto nos Cartões (R$)\"}, \"Name\": \"_Medidas.Gasto nos Cartões (R$)\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Baixado no Sistema (R$)\"}, \"Name\": \"_Medidas.Baixado no Sistema (R$)\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Gasto x baixado por competência'\"}}}}}]}}}",
+          "filters": "[]"
+        }
+      ]
+    }
+  ],
+  "filters": "[]"
+}

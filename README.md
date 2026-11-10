@@ -44,6 +44,10 @@ Falta baixar no sistema: R$ 5.145,84
 
 O PA 05, que estoura o limite de manutenção, e os PAs 08 e 11, que atrasam a prestação de contas, foram **plantados** no gerador. Os testes garantem que as regras os encontram.
 
+## Como abrir no Power BI Desktop
+
+O projeto está em [`pbip/`](pbip) no formato **Power BI Project (PBIP)**: modelo e relatório em texto, gerados por `scripts/gerar_pbip.py`. Abra `pbip/ReembolsosCartoes.pbip`, aponte o parâmetro **PastaProcessado** para `data\processado\` do seu clone e clique em **Atualizar**. São 4 páginas: Reembolsos, Cartões e manutenção, Prestação de contas e Fundo fixo. Para ter um `.pbix`, use *Arquivo › Salvar como*.
+
 ## Como executar
 
 ```bash

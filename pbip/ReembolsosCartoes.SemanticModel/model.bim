@@ -1,0 +1,1014 @@
+{
+  "name": "SemanticModel",
+  "compatibilityLevel": 1567,
+  "model": {
+    "culture": "pt-BR",
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "pt-BR",
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "tables": [
+      {
+        "name": "fReembolso",
+        "lineageTag": "d7e3bae0-c96c-4284-b112-5f6649979857",
+        "columns": [
+          {
+            "name": "id",
+            "dataType": "int64",
+            "sourceColumn": "id",
+            "lineageTag": "2515ce59-202f-4cd7-a828-3fdc520069fa",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "colaborador",
+            "dataType": "string",
+            "sourceColumn": "colaborador",
+            "lineageTag": "8ce1bb9a-3997-4a8f-b6f6-91c4d5ba75e4",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "pa",
+            "dataType": "string",
+            "sourceColumn": "pa",
+            "lineageTag": "96bca822-8607-424d-8d50-05d1708b0e3e",
+            "summarizeBy": "none",
+            "isHidden": true
+          },
+          {
+            "name": "data_despesa",
+            "dataType": "dateTime",
+            "sourceColumn": "data_despesa",
+            "lineageTag": "1004d392-e76a-4987-adde-2f59630cb255",
+            "summarizeBy": "none",
+            "formatString": "dd/mm/yyyy"
+          },
+          {
+            "name": "data_envio",
+            "dataType": "dateTime",
+            "sourceColumn": "data_envio",
+            "lineageTag": "b34e2737-9fdd-4726-9ef3-25ea8b6ea6dd",
+            "summarizeBy": "none",
+            "formatString": "dd/mm/yyyy"
+          },
+          {
+            "name": "data_aprovacao",
+            "dataType": "dateTime",
+            "sourceColumn": "data_aprovacao",
+            "lineageTag": "af3756a0-5f2e-49be-8db8-6201a34965e6",
+            "summarizeBy": "none",
+            "formatString": "dd/mm/yyyy"
+          },
+          {
+            "name": "data_pagamento",
+            "dataType": "dateTime",
+            "sourceColumn": "data_pagamento",
+            "lineageTag": "62e53ce0-03c3-489c-818a-cf6a5a239f5c",
+            "summarizeBy": "none",
+            "formatString": "dd/mm/yyyy"
+          },
+          {
+            "name": "tipo",
+            "dataType": "string",
+            "sourceColumn": "tipo",
+            "lineageTag": "284eb560-c60c-4108-8c71-a1367d5f9428",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "veiculo",
+            "dataType": "string",
+            "sourceColumn": "veiculo",
+            "lineageTag": "2db75b6c-d67e-4391-a3d9-da717a4eec58",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "km",
+            "dataType": "int64",
+            "sourceColumn": "km",
+            "lineageTag": "b7255fd6-cd6b-486d-928e-70d41208924d",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "valor",
+            "dataType": "decimal",
+            "sourceColumn": "valor",
+            "lineageTag": "c33a6fb7-4b88-41d1-9619-83146d130cc1",
+            "summarizeBy": "sum",
+            "formatString": "\"R$\" #,0.00"
+          },
+          {
+            "name": "valor_esperado_km",
+            "dataType": "decimal",
+            "sourceColumn": "valor_esperado_km",
+            "lineageTag": "daeaba89-c9b2-42a7-8c27-d9774dcc1b17",
+            "summarizeBy": "sum",
+            "formatString": "\"R$\" #,0.00"
+          },
+          {
+            "name": "divergencia_km",
+            "dataType": "decimal",
+            "sourceColumn": "divergencia_km",
+            "lineageTag": "c26ff673-3e61-427d-8eaf-9737ba0f0749",
+            "summarizeBy": "sum",
+            "formatString": "\"R$\" #,0.00"
+          },
+          {
+            "name": "alerta_km",
+            "dataType": "boolean",
+            "sourceColumn": "alerta_km",
+            "lineageTag": "71d8c21e-00f4-43fe-9733-de9e322a0e6e",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "dias_para_envio",
+            "dataType": "int64",
+            "sourceColumn": "dias_para_envio",
+            "lineageTag": "0b6d7727-39a6-4610-9878-d1dc7af6c807",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "fora_do_prazo_envio",
+            "dataType": "boolean",
+            "sourceColumn": "fora_do_prazo_envio",
+            "lineageTag": "80137ec5-df24-4280-b2ce-2e6f5c15a6c3",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "dias_ate_pagamento",
+            "dataType": "int64",
+            "sourceColumn": "dias_ate_pagamento",
+            "lineageTag": "48d29df7-779d-45cd-82f8-fead0c73b722",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "veiculo_alugado",
+            "dataType": "boolean",
+            "sourceColumn": "veiculo_alugado",
+            "lineageTag": "0f1c9f34-8331-41af-99fe-f5612050b224",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "competencia",
+            "dataType": "string",
+            "sourceColumn": "competencia",
+            "lineageTag": "460d5798-0a43-4dd3-896d-3920c0bae5c1",
+            "summarizeBy": "none",
+            "isHidden": true
+          }
+        ],
+        "partitions": [
+          {
+            "name": "fReembolso",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Origem = fxLerProcessado(\"fReembolso\"),",
+                "    Tipos = Table.TransformColumnTypes(Origem, {",
+                "        {\"id\", Int64.Type},",
+                "        {\"colaborador\", type text},",
+                "        {\"pa\", type text},",
+                "        {\"data_despesa\", type date},",
+                "        {\"data_envio\", type date},",
+                "        {\"data_aprovacao\", type date},",
+                "        {\"data_pagamento\", type date},",
+                "        {\"tipo\", type text},",
+                "        {\"veiculo\", type text},",
+                "        {\"km\", Int64.Type},",
+                "        {\"valor\", Currency.Type},",
+                "        {\"valor_esperado_km\", Currency.Type},",
+                "        {\"divergencia_km\", Currency.Type},",
+                "        {\"alerta_km\", type logical},",
+                "        {\"dias_para_envio\", Int64.Type},",
+                "        {\"fora_do_prazo_envio\", type logical},",
+                "        {\"dias_ate_pagamento\", Int64.Type},",
+                "        {\"veiculo_alugado\", type logical},",
+                "        {\"competencia\", type text}}, \"en-US\")",
+                "in",
+                "    Tipos"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "fCompraCartao",
+        "lineageTag": "35457560-1950-441a-afaf-be043e2753f9",
+        "columns": [
+          {
+            "name": "compra_id",
+            "dataType": "int64",
+            "sourceColumn": "compra_id",
+            "lineageTag": "544812fc-5cf4-4c77-83b6-5cd45ee9f5dd",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "data",
+            "dataType": "dateTime",
+            "sourceColumn": "data",
+            "lineageTag": "c4cf55fa-d4df-4306-be45-7bd5250a8378",
+            "summarizeBy": "none",
+            "formatString": "dd/mm/yyyy"
+          },
+          {
+            "name": "pa",
+            "dataType": "string",
+            "sourceColumn": "pa",
+            "lineageTag": "0232fa7c-3dec-4818-8bc3-07749119f2ac",
+            "summarizeBy": "none",
+            "isHidden": true
+          },
+          {
+            "name": "natureza",
+            "dataType": "string",
+            "sourceColumn": "natureza",
+            "lineageTag": "6e176c3e-ffa4-4cf1-abc8-5f018e50a2f5",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "categoria",
+            "dataType": "string",
+            "sourceColumn": "categoria",
+            "lineageTag": "3f3f408f-544a-4437-a516-0b8e48aefd45",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "valor",
+            "dataType": "decimal",
+            "sourceColumn": "valor",
+            "lineageTag": "2a6829f8-f347-44d6-b123-cd5af0c0c80e",
+            "summarizeBy": "sum",
+            "formatString": "\"R$\" #,0.00"
+          },
+          {
+            "name": "comprovante",
+            "dataType": "string",
+            "sourceColumn": "comprovante",
+            "lineageTag": "c04fe33b-87d6-43f3-a7cb-d5d99b9c9258",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "data_baixa",
+            "dataType": "dateTime",
+            "sourceColumn": "data_baixa",
+            "lineageTag": "79fd8dfc-22a4-487e-984f-6745256a05d8",
+            "summarizeBy": "none",
+            "formatString": "dd/mm/yyyy"
+          },
+          {
+            "name": "valor_baixado",
+            "dataType": "decimal",
+            "sourceColumn": "valor_baixado",
+            "lineageTag": "08e30254-dc86-4a20-ac9a-5fead7c292ab",
+            "summarizeBy": "sum",
+            "formatString": "\"R$\" #,0.00"
+          },
+          {
+            "name": "situacao_baixa",
+            "dataType": "string",
+            "sourceColumn": "situacao_baixa",
+            "lineageTag": "c88c952a-42fd-4aa3-b2bc-b7788e5abdab",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "competencia",
+            "dataType": "string",
+            "sourceColumn": "competencia",
+            "lineageTag": "81c30d67-b1a4-458a-920f-6cd09427b753",
+            "summarizeBy": "none",
+            "isHidden": true
+          }
+        ],
+        "partitions": [
+          {
+            "name": "fCompraCartao",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Origem = fxLerProcessado(\"fCompraCartao\"),",
+                "    Tipos = Table.TransformColumnTypes(Origem, {",
+                "        {\"compra_id\", Int64.Type},",
+                "        {\"data\", type date},",
+                "        {\"pa\", type text},",
+                "        {\"natureza\", type text},",
+                "        {\"categoria\", type text},",
+                "        {\"valor\", Currency.Type},",
+                "        {\"comprovante\", type text},",
+                "        {\"data_baixa\", type date},",
+                "        {\"valor_baixado\", Currency.Type},",
+                "        {\"situacao_baixa\", type text},",
+                "        {\"competencia\", type text}}, \"en-US\")",
+                "in",
+                "    Tipos"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "fCredito",
+        "lineageTag": "44e36d34-3e08-4816-b698-2cf159c54aeb",
+        "columns": [
+          {
+            "name": "competencia",
+            "dataType": "string",
+            "sourceColumn": "competencia",
+            "lineageTag": "7375ad3c-c823-4bad-9973-d58ee9c6d27e",
+            "summarizeBy": "none",
+            "isHidden": true
+          },
+          {
+            "name": "pa",
+            "dataType": "string",
+            "sourceColumn": "pa",
+            "lineageTag": "83a72572-c116-4715-a28f-c3c568de40dd",
+            "summarizeBy": "none",
+            "isHidden": true
+          },
+          {
+            "name": "credito_total",
+            "dataType": "decimal",
+            "sourceColumn": "credito_total",
+            "lineageTag": "d042dd93-0b3a-42fb-a32b-4b4da8b88fe8",
+            "summarizeBy": "sum",
+            "formatString": "\"R$\" #,0.00"
+          },
+          {
+            "name": "parcela_manutencao",
+            "dataType": "decimal",
+            "sourceColumn": "parcela_manutencao",
+            "lineageTag": "2bfa8808-f319-45fa-8d38-aec3cb47ea97",
+            "summarizeBy": "sum",
+            "formatString": "\"R$\" #,0.00"
+          },
+          {
+            "name": "parcela_administrativa",
+            "dataType": "decimal",
+            "sourceColumn": "parcela_administrativa",
+            "lineageTag": "770eb8da-ce64-4593-8fa6-811f4badb994",
+            "summarizeBy": "sum",
+            "formatString": "\"R$\" #,0.00"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "fCredito",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Origem = fxLerProcessado(\"fCredito\"),",
+                "    Tipos = Table.TransformColumnTypes(Origem, {",
+                "        {\"competencia\", type text},",
+                "        {\"pa\", type text},",
+                "        {\"credito_total\", Currency.Type},",
+                "        {\"parcela_manutencao\", Currency.Type},",
+                "        {\"parcela_administrativa\", Currency.Type}}, \"en-US\"),",
+                "    Competencia = Table.TransformColumns(Tipos, {{\"competencia\", each Text.Start(_, 7), type text}})",
+                "in",
+                "    Competencia"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "fUsoManutencao",
+        "lineageTag": "8008d065-08d4-463d-9953-b2cea79b85bb",
+        "columns": [
+          {
+            "name": "competencia",
+            "dataType": "string",
+            "sourceColumn": "competencia",
+            "lineageTag": "6ab38953-33ae-404c-a0eb-e564bd9c32ba",
+            "summarizeBy": "none",
+            "isHidden": true
+          },
+          {
+            "name": "pa",
+            "dataType": "string",
+            "sourceColumn": "pa",
+            "lineageTag": "9916d15e-76ce-4f16-b5af-6f06f92ca2ca",
+            "summarizeBy": "none",
+            "isHidden": true
+          },
+          {
+            "name": "gasto_manutencao",
+            "dataType": "decimal",
+            "sourceColumn": "gasto_manutencao",
+            "lineageTag": "d764b047-f5a5-4477-a357-5bd507a122d3",
+            "summarizeBy": "sum",
+            "formatString": "\"R$\" #,0.00"
+          },
+          {
+            "name": "limite",
+            "dataType": "decimal",
+            "sourceColumn": "limite",
+            "lineageTag": "7c26e523-a8ea-472e-870d-854bd4d6920b",
+            "summarizeBy": "sum",
+            "formatString": "\"R$\" #,0.00"
+          },
+          {
+            "name": "excedente",
+            "dataType": "decimal",
+            "sourceColumn": "excedente",
+            "lineageTag": "47f9c254-f8a4-4c2d-b023-7d2ec602aa88",
+            "summarizeBy": "sum",
+            "formatString": "\"R$\" #,0.00"
+          },
+          {
+            "name": "estourou_limite",
+            "dataType": "boolean",
+            "sourceColumn": "estourou_limite",
+            "lineageTag": "61e36b9e-0d9b-4322-8701-9c93d34faad9",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "fUsoManutencao",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Origem = fxLerProcessado(\"fUsoManutencao\"),",
+                "    Tipos = Table.TransformColumnTypes(Origem, {",
+                "        {\"competencia\", type text},",
+                "        {\"pa\", type text},",
+                "        {\"gasto_manutencao\", Currency.Type},",
+                "        {\"limite\", Currency.Type},",
+                "        {\"excedente\", Currency.Type},",
+                "        {\"estourou_limite\", type logical}}, \"en-US\")",
+                "in",
+                "    Tipos"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "fPrestacao",
+        "lineageTag": "9a05071d-9c27-4688-845d-f584a4dfc551",
+        "columns": [
+          {
+            "name": "competencia",
+            "dataType": "string",
+            "sourceColumn": "competencia",
+            "lineageTag": "01c90cdf-728c-432c-9649-5365046a9a57",
+            "summarizeBy": "none",
+            "isHidden": true
+          },
+          {
+            "name": "pa",
+            "dataType": "string",
+            "sourceColumn": "pa",
+            "lineageTag": "41297daf-793b-4ee3-85c6-9b48f0d34014",
+            "summarizeBy": "none",
+            "isHidden": true
+          },
+          {
+            "name": "prazo",
+            "dataType": "dateTime",
+            "sourceColumn": "prazo",
+            "lineageTag": "796d893f-2ca4-4ed1-b9fa-32d3b44802f1",
+            "summarizeBy": "none",
+            "formatString": "dd/mm/yyyy"
+          },
+          {
+            "name": "data_envio",
+            "dataType": "dateTime",
+            "sourceColumn": "data_envio",
+            "lineageTag": "5e737273-e876-4e34-9b5c-7b47506cd465",
+            "summarizeBy": "none",
+            "formatString": "dd/mm/yyyy"
+          },
+          {
+            "name": "dias_atraso",
+            "dataType": "int64",
+            "sourceColumn": "dias_atraso",
+            "lineageTag": "a5da89e6-9c33-4892-92e9-b19217d9d713",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "status",
+            "dataType": "string",
+            "sourceColumn": "status",
+            "lineageTag": "98f81ea4-f144-495b-9186-733429afc8d2",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "fPrestacao",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Origem = fxLerProcessado(\"fPrestacao\"),",
+                "    Tipos = Table.TransformColumnTypes(Origem, {",
+                "        {\"competencia\", type text},",
+                "        {\"pa\", type text},",
+                "        {\"prazo\", type date},",
+                "        {\"data_envio\", type date},",
+                "        {\"dias_atraso\", Int64.Type},",
+                "        {\"status\", type text}}, \"en-US\")",
+                "in",
+                "    Tipos"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "fFundoFixo",
+        "lineageTag": "1a57094a-af69-402a-8e87-946c6a386256",
+        "columns": [
+          {
+            "name": "competencia",
+            "dataType": "string",
+            "sourceColumn": "competencia",
+            "lineageTag": "aec0d602-da77-46b5-82db-d2452b2ff529",
+            "summarizeBy": "none",
+            "isHidden": true
+          },
+          {
+            "name": "creditos",
+            "dataType": "decimal",
+            "sourceColumn": "creditos",
+            "lineageTag": "e1e335c5-195c-462d-b794-457e7ad163fa",
+            "summarizeBy": "sum",
+            "formatString": "\"R$\" #,0.00"
+          },
+          {
+            "name": "devolucoes",
+            "dataType": "decimal",
+            "sourceColumn": "devolucoes",
+            "lineageTag": "ac66d588-15b5-4ba4-8c74-83b7ec9e02ab",
+            "summarizeBy": "sum",
+            "formatString": "\"R$\" #,0.00"
+          },
+          {
+            "name": "gasto_cartoes",
+            "dataType": "decimal",
+            "sourceColumn": "gasto_cartoes",
+            "lineageTag": "1612e3e4-8e58-493e-a5ff-3306a21d8f8d",
+            "summarizeBy": "sum",
+            "formatString": "\"R$\" #,0.00"
+          },
+          {
+            "name": "baixado_sistema",
+            "dataType": "decimal",
+            "sourceColumn": "baixado_sistema",
+            "lineageTag": "addaed2b-97cf-49d6-9e95-977a8c598c38",
+            "summarizeBy": "sum",
+            "formatString": "\"R$\" #,0.00"
+          },
+          {
+            "name": "falta_baixar",
+            "dataType": "decimal",
+            "sourceColumn": "falta_baixar",
+            "lineageTag": "acdd6f68-14d0-46ad-a3cf-cf57627e7a4d",
+            "summarizeBy": "sum",
+            "formatString": "\"R$\" #,0.00"
+          },
+          {
+            "name": "saldo_fundo_fixo",
+            "dataType": "decimal",
+            "sourceColumn": "saldo_fundo_fixo",
+            "lineageTag": "b483ccc0-db8a-447d-ac65-7ca0c3e35372",
+            "summarizeBy": "sum",
+            "formatString": "\"R$\" #,0.00"
+          },
+          {
+            "name": "saldo_acumulado",
+            "dataType": "decimal",
+            "sourceColumn": "saldo_acumulado",
+            "lineageTag": "b38d6458-f096-4de7-859d-5fd83a51591f",
+            "summarizeBy": "sum",
+            "formatString": "\"R$\" #,0.00"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "fFundoFixo",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Origem = fxLerProcessado(\"fFundoFixo\"),",
+                "    Tipos = Table.TransformColumnTypes(Origem, {",
+                "        {\"competencia\", type text},",
+                "        {\"creditos\", Currency.Type},",
+                "        {\"devolucoes\", Currency.Type},",
+                "        {\"gasto_cartoes\", Currency.Type},",
+                "        {\"baixado_sistema\", Currency.Type},",
+                "        {\"falta_baixar\", Currency.Type},",
+                "        {\"saldo_fundo_fixo\", Currency.Type},",
+                "        {\"saldo_acumulado\", Currency.Type}}, \"en-US\")",
+                "in",
+                "    Tipos"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "dCompetencia",
+        "lineageTag": "3679b8fe-89ab-47ff-a071-da613d41e409",
+        "columns": [
+          {
+            "name": "competencia",
+            "dataType": "string",
+            "sourceColumn": "competencia",
+            "lineageTag": "6ee6c089-8e9c-475e-89ed-0d41e2533ba1",
+            "summarizeBy": "none",
+            "isKey": true
+          },
+          {
+            "name": "mes",
+            "dataType": "string",
+            "sourceColumn": "mes",
+            "lineageTag": "cc8b840f-dcaf-48be-a89b-a0af67a0ead6",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dCompetencia",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Fontes = {fReembolso[competencia], fCompraCartao[competencia], fCredito[competencia], fUsoManutencao[competencia],",
+                "              fPrestacao[competencia], fFundoFixo[competencia]},",
+                "    Lista  = List.Sort(List.Distinct(List.RemoveNulls(List.Combine(Fontes)))),",
+                "    Tabela = Table.FromList(Lista, Splitter.SplitByNothing(), {\"competencia\"}),",
+                "    Tipo   = Table.TransformColumnTypes(Tabela, {{\"competencia\", type text}}),",
+                "    Mes    = Table.AddColumn(Tipo, \"mes\", each Text.Proper(Date.ToText(Date.FromText([competencia] & \"-01\"), \"MMM/yy\", \"pt-BR\")), type text)",
+                "in",
+                "    Mes"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "dPA",
+        "lineageTag": "43a5f1d7-7a15-4621-a2e5-81dad417f7ad",
+        "columns": [
+          {
+            "name": "pa",
+            "dataType": "string",
+            "sourceColumn": "pa",
+            "lineageTag": "53182c9b-7f94-4b64-8bd6-7f9a44cb6004",
+            "summarizeBy": "none",
+            "isKey": true
+          },
+          {
+            "name": "nome_pa",
+            "dataType": "string",
+            "sourceColumn": "nome_pa",
+            "lineageTag": "380a8b56-26e4-4368-b24e-5fd8462f8b96",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dPA",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Lista  = List.Sort(List.Distinct(List.RemoveNulls(List.Combine({fReembolso[pa], fCompraCartao[pa], fCredito[pa], fPrestacao[pa]})))),",
+                "    Tabela = Table.FromList(Lista, Splitter.SplitByNothing(), {\"pa\"}),",
+                "    Tipo   = Table.TransformColumnTypes(Tabela, {{\"pa\", type text}}),",
+                "    Nome   = Table.AddColumn(Tipo, \"nome_pa\", each \"PA \" & [pa], type text)",
+                "in",
+                "    Nome"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "_Medidas",
+        "lineageTag": "7930e422-8624-4002-9ce9-5e9a8e9c9ca8",
+        "columns": [
+          {
+            "type": "calculatedTableColumn",
+            "name": "Coluna",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "[Coluna]",
+            "lineageTag": "41d5e98d-dd09-47d2-ab3a-ca3b3a6f062e",
+            "summarizeBy": "none",
+            "isHidden": true
+          }
+        ],
+        "partitions": [
+          {
+            "name": "_Medidas",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "ROW(\"Coluna\", BLANK())"
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Reembolsos (R$)",
+            "expression": "SUM ( fReembolso[valor] )",
+            "formatString": "\"R$\" #,0.00",
+            "lineageTag": "29709ca7-49ac-458b-883e-4eab2a6ac8f9"
+          },
+          {
+            "name": "Qtd Reembolsos",
+            "expression": "COUNTROWS ( fReembolso )",
+            "formatString": "#,0",
+            "lineageTag": "58b8b8ba-233e-4252-bb50-c458305e4a6d"
+          },
+          {
+            "name": "Reembolsos Veículo Alugado (R$)",
+            "expression": "    CALCULATE ( [Reembolsos (R$)], fReembolso[veiculo_alugado] = TRUE () )",
+            "formatString": "\"R$\" #,0.00",
+            "lineageTag": "046b6678-e575-4d28-ad6e-7d173706efc1"
+          },
+          {
+            "name": "Km Rodados",
+            "expression": "SUM ( fReembolso[km] )",
+            "formatString": "#,0",
+            "lineageTag": "2f309196-bd67-491c-9e8e-09c28b8c5b2e"
+          },
+          {
+            "name": "Custo por Km (veículo alugado)",
+            "expression": "    DIVIDE ( [Reembolsos Veículo Alugado (R$)], CALCULATE ( [Km Rodados], fReembolso[veiculo_alugado] = TRUE () ) )",
+            "formatString": "\"R$\" #,0.00",
+            "lineageTag": "6c73f416-fd40-4cb0-b61e-6406e84acfd2"
+          },
+          {
+            "name": "Alertas de Km",
+            "expression": "CALCULATE ( [Qtd Reembolsos], fReembolso[alerta_km] = TRUE () )",
+            "formatString": "#,0",
+            "lineageTag": "9dc97ae5-d92b-4345-98fb-61c37f96c7d0"
+          },
+          {
+            "name": "Diferença Km (R$)",
+            "expression": "SUM ( fReembolso[divergencia_km] )",
+            "formatString": "\"R$\" #,0.00",
+            "lineageTag": "295902bd-9568-4368-9a30-cdde88e398a1"
+          },
+          {
+            "name": "% Enviado Fora do Prazo",
+            "expression": "    DIVIDE ( CALCULATE ( [Qtd Reembolsos], fReembolso[fora_do_prazo_envio] = TRUE () ), [Qtd Reembolsos] )",
+            "formatString": "0.0%",
+            "lineageTag": "dda41a07-ca88-4384-aeda-a8162456bbde"
+          },
+          {
+            "name": "Prazo Médio até Pagamento (dias)",
+            "expression": "AVERAGE ( fReembolso[dias_ate_pagamento] )",
+            "lineageTag": "fa1e15ab-6dce-462b-b83d-97fbdbc7629c"
+          },
+          {
+            "name": "Créditos nos Cartões (R$)",
+            "expression": "SUM ( fCredito[credito_total] )",
+            "formatString": "\"R$\" #,0.00",
+            "lineageTag": "be8b5df0-1a2d-4fd9-855e-070ef8310bd4"
+          },
+          {
+            "name": "Gasto nos Cartões (R$)",
+            "expression": "SUM ( fCompraCartao[valor] )",
+            "formatString": "\"R$\" #,0.00",
+            "lineageTag": "8c1da692-4bb7-4580-a400-ae09518d8b67"
+          },
+          {
+            "name": "% Utilização do Crédito",
+            "expression": "DIVIDE ( [Gasto nos Cartões (R$)], [Créditos nos Cartões (R$)] )",
+            "formatString": "0.0%",
+            "lineageTag": "498f5459-6d39-4b8d-95aa-60dfc6f14c5f"
+          },
+          {
+            "name": "Gasto Manutenção (R$)",
+            "expression": "SUM ( fUsoManutencao[gasto_manutencao] )",
+            "formatString": "\"R$\" #,0.00",
+            "lineageTag": "da84054e-9aa9-447c-ad2a-95b8fa3a45e7"
+          },
+          {
+            "name": "Excedente Manutenção (R$)",
+            "expression": "SUM ( fUsoManutencao[excedente] )",
+            "formatString": "\"R$\" #,0.00",
+            "lineageTag": "d0eda98f-a3c0-483d-b725-60594611f0c0"
+          },
+          {
+            "name": "PA-mês acima do limite",
+            "expression": "CALCULATE ( COUNTROWS ( fUsoManutencao ), fUsoManutencao[estourou_limite] = TRUE () )",
+            "formatString": "#,0",
+            "lineageTag": "16860a10-e4cd-4415-8489-d39ef7de477b"
+          },
+          {
+            "name": "Compras sem Comprovante",
+            "expression": "CALCULATE ( COUNTROWS ( fCompraCartao ), fCompraCartao[comprovante] = \"Não\" )",
+            "formatString": "#,0",
+            "lineageTag": "0a24a19f-3846-45c6-8eb5-65812139f04f"
+          },
+          {
+            "name": "Prestações com Atraso",
+            "expression": [
+              "    CALCULATE ( COUNTROWS ( fPrestacao ),",
+              "        fPrestacao[status] IN { \"Enviada com atraso\", \"Pendente (atrasada)\" } )"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "6f8a9578-64de-4366-918e-b9bb1f40c10c"
+          },
+          {
+            "name": "% Prestações no Prazo",
+            "expression": [
+              "    DIVIDE ( CALCULATE ( COUNTROWS ( fPrestacao ), fPrestacao[status] = \"No prazo\" ),",
+              "             CALCULATE ( COUNTROWS ( fPrestacao ), fPrestacao[status] <> \"Aguardando (no prazo)\" ) )"
+            ],
+            "formatString": "0.0%",
+            "lineageTag": "ef7d28c0-ea25-4630-817b-43890225332a"
+          },
+          {
+            "name": "Atraso Médio (dias)",
+            "expression": "    AVERAGEX ( FILTER ( fPrestacao, fPrestacao[dias_atraso] > 0 ), fPrestacao[dias_atraso] )",
+            "lineageTag": "b8346e48-2d44-4521-b5c2-e959ebe1c066"
+          },
+          {
+            "name": "Baixado no Sistema (R$)",
+            "expression": "SUM ( fCompraCartao[valor_baixado] )",
+            "formatString": "\"R$\" #,0.00",
+            "lineageTag": "91564630-e25f-47d0-a9a8-d634241198d6"
+          },
+          {
+            "name": "Falta Baixar (R$)",
+            "expression": "[Gasto nos Cartões (R$)] - [Baixado no Sistema (R$)]",
+            "formatString": "\"R$\" #,0.00",
+            "lineageTag": "5262238c-1975-4cb2-9e5a-b743eb7bca37"
+          },
+          {
+            "name": "% Baixado",
+            "expression": "DIVIDE ( [Baixado no Sistema (R$)], [Gasto nos Cartões (R$)] )",
+            "formatString": "0.0%",
+            "lineageTag": "05b70ded-7e4e-4350-9c91-04402a064c72"
+          },
+          {
+            "name": "Créditos à Plataforma (R$)",
+            "expression": "SUM ( fFundoFixo[creditos] )",
+            "formatString": "\"R$\" #,0.00",
+            "lineageTag": "1c63f153-8ad1-4280-a286-3a84565b8da4"
+          },
+          {
+            "name": "Devoluções (R$)",
+            "expression": "SUM ( fFundoFixo[devolucoes] )",
+            "formatString": "\"R$\" #,0.00",
+            "lineageTag": "fa8a142f-9c4c-43aa-bb59-ddf60fa8a957"
+          },
+          {
+            "name": "Saldo Fundo Fixo (R$)",
+            "expression": "[Créditos à Plataforma (R$)] - [Devoluções (R$)] - [Baixado no Sistema (R$)]",
+            "formatString": "\"R$\" #,0.00",
+            "lineageTag": "b438f7cb-c09f-42b0-9410-2d5792dd8a06"
+          },
+          {
+            "name": "Saldo Fundo Fixo Acumulado (R$)",
+            "expression": [
+              "    VAR _ultima = MAX ( dCompetencia[competencia] )",
+              "    RETURN",
+              "        CALCULATE (",
+              "            SUM ( fFundoFixo[saldo_fundo_fixo] ),",
+              "            REMOVEFILTERS ( dCompetencia ),",
+              "            dCompetencia[competencia] <= _ultima",
+              "        )"
+            ],
+            "formatString": "\"R$\" #,0.00",
+            "lineageTag": "57f051bf-8ab7-4e40-9858-97c285ac3b55"
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "name": "4b80cbc0-689e-420d-a27e-67c16ac72b34",
+        "fromTable": "fReembolso",
+        "fromColumn": "competencia",
+        "toTable": "dCompetencia",
+        "toColumn": "competencia"
+      },
+      {
+        "name": "d68e3e7f-20a3-4659-bb18-d787a3fd9128",
+        "fromTable": "fReembolso",
+        "fromColumn": "pa",
+        "toTable": "dPA",
+        "toColumn": "pa"
+      },
+      {
+        "name": "1a34e8c3-c5fa-4fc1-b073-0fed4c7528f0",
+        "fromTable": "fCompraCartao",
+        "fromColumn": "competencia",
+        "toTable": "dCompetencia",
+        "toColumn": "competencia"
+      },
+      {
+        "name": "b76147df-4e86-46cb-b653-7a67386b1cbe",
+        "fromTable": "fCompraCartao",
+        "fromColumn": "pa",
+        "toTable": "dPA",
+        "toColumn": "pa"
+      },
+      {
+        "name": "0a909a01-b055-4ed6-9549-4a5418760339",
+        "fromTable": "fCredito",
+        "fromColumn": "competencia",
+        "toTable": "dCompetencia",
+        "toColumn": "competencia"
+      },
+      {
+        "name": "5a4861e1-5c3f-4b0f-92d6-e3dd665f5b61",
+        "fromTable": "fCredito",
+        "fromColumn": "pa",
+        "toTable": "dPA",
+        "toColumn": "pa"
+      },
+      {
+        "name": "6962f616-fd24-4d23-9102-dd548d61add0",
+        "fromTable": "fUsoManutencao",
+        "fromColumn": "competencia",
+        "toTable": "dCompetencia",
+        "toColumn": "competencia"
+      },
+      {
+        "name": "5058f0a3-beea-4d95-8f66-f3647ee89f0b",
+        "fromTable": "fUsoManutencao",
+        "fromColumn": "pa",
+        "toTable": "dPA",
+        "toColumn": "pa"
+      },
+      {
+        "name": "57123b8e-95e3-4de2-80fe-b9bb7bc887be",
+        "fromTable": "fPrestacao",
+        "fromColumn": "competencia",
+        "toTable": "dCompetencia",
+        "toColumn": "competencia"
+      },
+      {
+        "name": "06a1b048-2373-4ce4-a10b-d67ce1e35ff8",
+        "fromTable": "fPrestacao",
+        "fromColumn": "pa",
+        "toTable": "dPA",
+        "toColumn": "pa"
+      },
+      {
+        "name": "5e092b99-f694-494d-8209-677bd597fbad",
+        "fromTable": "fFundoFixo",
+        "fromColumn": "competencia",
+        "toTable": "dCompetencia",
+        "toColumn": "competencia"
+      }
+    ],
+    "expressions": [
+      {
+        "name": "PastaProcessado",
+        "kind": "m",
+        "expression": "\"C:\\\\Projetos\\\\painel-reembolsos-cartoes-prepagos\\\\data\\\\processado\\\\\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]"
+      },
+      {
+        "name": "fxLerProcessado",
+        "kind": "m",
+        "expression": [
+          "(nome as text) as table =>",
+          "let",
+          "    Origem   = Csv.Document(File.Contents(PastaProcessado & nome & \".csv\"), [Delimiter = \";\", Encoding = 65001]),",
+          "    Promover = Table.PromoteHeaders(Origem, [PromoteAllScalars = true])",
+          "in",
+          "    Promover"
+        ]
+      }
+    ],
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"PastaProcessado\", \"fxLerProcessado\", \"fReembolso\", \"fCompraCartao\", \"fCredito\", \"fUsoManutencao\", \"fPrestacao\", \"fFundoFixo\", \"dCompetencia\", \"dPA\"]"
+      },
+      {
+        "name": "Autor",
+        "value": "Gabriel Antônio Ribeiro"
+      }
+    ]
+  }
+}
